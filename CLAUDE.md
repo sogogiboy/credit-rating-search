@@ -6,8 +6,9 @@
 문의: MOJO789@GMAIL.COM (페이지 하단 표기 유지)
 
 ## 현재 상태 (2026-10-24 기준, Claude Cowork에서 만든 버전)
-- `site/index.html`: 단일 HTML. 데이터가 파일 안에 JS 배열로 들어 있음(DB, NEW, FIX, MORE, EX). 그대로 열면 동작.
-- `data/ratings.json`: 위 데이터를 하나로 합쳐 정리한 원본 데이터 144곳. **앞으로는 이 파일이 단일 원본(source of truth)**.
+- `site/index.html`: 단일 HTML. 시작할 때 `data/ratings.json`을 fetch해서 씀(배포 시 `data/`가 페이지 옆, 저장소에선 `../data/`).
+  fetch를 쓰므로 파일을 더블클릭(file://)하면 안 열림 → 저장소 루트에서 `npx http-server -c-1 .` 후 `/site/` 접속.
+- `data/ratings.json`: 원본 데이터 144곳. **이 파일이 단일 원본(source of truth)**. 페이지 내장 데이터는 2026-10-24에 제거함.
 - 화면 기능: 쉬운 말 판정(매우 안전~부도 7단계), 5년 부도율 체감 문구, 평가사 3곳 한 줄 눈금,
   국내 vs 국제 비교, 비교함(최대 4곳), 초성 검색·자동완성, 분류 필터, 즐겨찾기(localStorage),
   결과 복사, `#id` 딥링크, 최근 12개월 등급 변동, 다크 모드.
