@@ -118,6 +118,11 @@ main .wrap{padding-block:16px 8px;display:grid;gap:14px}
 .chg .who{font-weight:700}
 .toast{position:fixed;left:50%;bottom:calc(72px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--surface);padding:8px 14px;border-radius:999px;font-size:13px;z-index:20}
 .src{font-size:12.5px;color:var(--mute);padding:4px 4px 0}
+.src a{color:var(--accent)}
+.dlg{border:1px solid var(--line);border-radius:14px;background:var(--surface);color:var(--ink);padding:18px;width:min(420px,calc(100vw - 32px))}
+.dlg::backdrop{background:rgba(0,0,0,.45)}
+.dlg h3{margin:0 0 10px;font-size:17px}.dlg p{margin:0 0 8px;font-size:14px}
+.dlg .acts2{display:flex;gap:8px;justify-content:flex-end;margin-top:14px}
 
 /* compare */
 .cmpbar{position:sticky;bottom:0;z-index:4;background:var(--surface);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px)}
@@ -210,6 +215,7 @@ footer .wrap{padding-block:8px 28px;font-size:12px;color:var(--mute);display:gri
     </details>
   </div>
 </main>
+<dialog id="aidlg" class="dlg" aria-labelledby="aidlgt"></dialog>
 
 <div class="cmpbar" id="cmpbar" hidden><div class="wrap"><span class="small muted">비교함</span><div class="chips" id="cchips"></div><button class="btn pri" id="cgo">비교 보기</button></div></div>
 
@@ -222,6 +228,8 @@ footer .wrap{padding-block:8px 28px;font-size:12px;color:var(--mute);display:gri
 var S=["AAA","AA+","AA","AA-","A+","A","A-","BBB+","BBB","BBB-","BB+","BB","BB-","B+","B","B-","CCC+","CCC","CCC-","CC","C","D"];
 var M=["Aaa","Aa1","Aa2","Aa3","A1","A2","A3","Baa1","Baa2","Baa3","Ba1","Ba2","Ba3","B1","B2","B3","Caa1","Caa2","Caa3","Ca","C",null];
 var NM=["S&P","무디스","피치"], DN=["NICE신용평가","한국신용평가","한국기업평가"];
+/* AI 검색 서버(worker/) 주소. 비워 두면 Claude 찾기 버튼이 숨겨져요 */
+var API="";
 var DB=[];
 /* data/ratings.json entity -> in-page record */
 function tri(o,a,b,c){return o?[o[a]||null,o[b]||null,o[c]||null]:null}
@@ -296,7 +304,7 @@ function show(i,noScroll){
   var h='<div class="card"><div class="rhead"><div><h2 class="rname">'+esc(d.n)+'</h2><div class="tags"><span class="tag">'+(d.t==="국가"?"나라":"회사")+'</span>'+(d.g?'<span class="tag">'+esc(d.g)+'</span>':'')+tag+'</div></div>'+
     '<div class="acts"><button class="btn'+(fav?' on':'')+'" id="favb" aria-pressed="'+fav+'">'+(fav?'★ 즐겨찾기됨':'☆ 즐겨찾기')+'</button><button class="btn" id="cpyr">결과 복사</button>'+(canLink()?'<button class="btn" id="cpyl">링크 복사</button>':'')+'<button class="btn'+(inC?'':' pri')+'" id="addc">'+(inC?'비교함에서 빼기':'+ 비교함에 담기')+'</button></div></div>';
   if(NOTE){h+='<div class="note2">'+NOTE+'</div>';NOTE=""}
-  if(d.ai)h+='<div class="aiw"><b>⚠ Claude가 기억으로 답한 값이에요</b><span>기준 시점: '+esc(d.asof||"알 수 없음")+' · 확신도: '+esc(d.conf||"알 수 없음")+'</span><span class="muted small">실시간 검색이 아니라서 그 뒤 바뀐 등급은 반영되지 않았을 수 있어요. 투자 판단 전에 평가사 발표나 회사 IR에서 꼭 확인하세요.</span></div>';
+  if(d.ai)h+='<div class="aiw"><b>⚠ Claude가 웹 검색으로 찾은 값이에요</b><span>기준 시점: '+esc(d.asof||"알 수 없음")+' · 확신도: '+esc(d.conf||"알 수 없음")+'</span><span class="muted small">자동으로 찾은 값이라 틀리거나 빠진 것이 있을 수 있어요. 투자 판단 전에 아래 출처나 평가사 발표에서 꼭 확인하세요.</span></div>';
   if(ci>=0){
     var spread=ia.length>1?Math.max.apply(null,ia)-Math.min.apply(null,ia):-1;
     var agree=spread<0?"한 곳의 평가만 확인됐어요":spread===0?"평가사 의견이 모두 같아요":spread===1?"평가사끼리 1단계 차이로 거의 같아요":"평가사끼리 "+spread+"단계까지 차이가 나요";
@@ -334,7 +342,7 @@ function show(i,noScroll){
     e.h.forEach(function(x){var c=/상향|취득/.test(x[2])?"up":/하향|부정적/.test(x[2])?"down":"";
       h+='<div class="hi"><span class="d">'+x[0]+'</span><span><b>'+x[1]+'</b> · <span class="'+c+'">'+esc(x[2])+'</span></span></div>'});
     h+='</div><p class="small muted" style="margin:0">확인된 기록만 보여줘요. 빠진 변경이 있을 수 있어요.</p></div>'}
-  h+='<div class="src">'+(d.o?'메모: '+esc(d.o)+'<br>':'')+(d.r.indexOf(null)>=0?'‘-’는 이번 조사에서 확인된 등급이 없다는 뜻이에요.<br>':'')+(d.s?'출처: '+esc(d.s):'출처: 확인 전 (평가사 발표를 직접 확인하세요)')+'</div>';
+  h+='<div class="src">'+(d.o?'메모: '+esc(d.o)+'<br>':'')+(d.r.indexOf(null)>=0?'‘-’는 이번 조사에서 확인된 등급이 없다는 뜻이에요.<br>':'')+(d.s?'출처: '+esc(d.s):'출처: 확인 전 (평가사 발표를 직접 확인하세요)')+(d.links&&d.links.length?'<br>'+d.links.map(function(x){return'<a href="'+esc(x.url)+'" target="_blank" rel="noopener noreferrer">'+esc(x.title)+(x.date?' ('+esc(x.date)+')':'')+'</a>'}).join(' · '):'')+'</div>';
   o.innerHTML=h;
   $("addc").onclick=function(){toggleCmp(i)};
   $("favb").onclick=function(){var f=favs(),p=f.indexOf(d.n);if(p>=0)f.splice(p,1);else f.unshift(d.n);store("favs",f);show(i,true);toast(p>=0?"즐겨찾기에서 뺐어요":"즐겨찾기에 담았어요")};
@@ -386,13 +394,13 @@ $("filters").querySelectorAll(".pill").forEach(function(b){b.onclick=function(){
 function sugItems(){var q=norm($("q").value);if(!q)return[];var a=[];DB.forEach(function(d,i){if(match(d,q))a.push(i)});return a.slice(0,8)}
 function renderSug(){var q=$("q").value.trim(),s=$("sug"),it=sugItems();$("clr").hidden=!q;
   if(!q){s.hidden=true;return}
-  var off=SM?1:0,h=SM?'<button data-ai="1" class="'+(sel===0?'on':'')+'"><span class="sn ai">🔎 ‘'+esc(q)+'’ 관련 나라·회사 모두 찾기</span><span class="st">Enter</span></button>':'';
+  var off=SM?1:0,h=SM?'<button data-ai="1" class="'+(sel===0?'on':'')+'"><span class="sn ai">🔎 ‘'+esc(q)+'’ 등급을 Claude 웹 검색으로 찾기</span><span class="st">Enter</span></button>':'';
   h+=it.map(function(i,k){var d=DB[i],c=cons(d);return'<button role="option" data-i="'+i+'" class="'+(k+off===sel?'on':'')+'"><span class="sn">'+esc(d.n)+'</span><span class="st num">'+(c>=0?S[c]:"")+'</span><span class="st">'+(d.t==="국가"?"나라":"회사")+'</span></button>'}).join("");
   if(!SM&&!it.length)h='<div class="empty">목록에 없어요. 다른 이름이나 영문으로 찾아보세요.</div>';
   s.innerHTML=h;s.hidden=false;
   s.querySelectorAll("button").forEach(function(b){b.onmousedown=function(e){e.preventDefault()};b.onclick=function(){pick(b)}})}
 function pick(b){$("sug").hidden=true;$("q").blur();if(b.dataset.ai)ask($("q").value.trim());else show(+b.dataset.i)}
-function askRow(){var q=$("q").value.trim(),a=$("askrow");a.hidden=!(q&&SM);if(!a.hidden)$("askb").textContent="🔎 ‘"+q+"’ 관련 나라·회사를 Claude에게 찾아달라고 하기"}
+function askRow(){var q=$("q").value.trim(),a=$("askrow");a.hidden=!(q&&SM);if(!a.hidden)$("askb").textContent="🔎 ‘"+q+"’ 등급을 Claude에게 웹 검색으로 찾아달라고 하기"}
 $("q").addEventListener("input",function(){sel=0;renderSug();renderList();askRow()});
 $("q").addEventListener("focus",renderSug);
 $("q").addEventListener("blur",function(){setTimeout(function(){$("sug").hidden=true},120)});
@@ -403,36 +411,44 @@ $("q").addEventListener("keydown",function(e){var bs=$("sug").querySelectorAll("
 $("clr").onclick=function(){$("q").value="";sel=0;renderSug();renderList();askRow();$("q").focus()};
 $("askb").onclick=function(){$("sug").hidden=true;ask($("q").value.trim())};
 
-/* Claude lookup (sample capability) */
+/* Claude lookup (AI 검색 서버) */
 function busy(t){$("out").innerHTML='<div class="card"><div class="loading"><span class="spin"></span>'+t+'</div></div>';$("out").scrollIntoView({block:"start"})}
 function msg(t){$("out").innerHTML='<div class="card"><div class="empty">'+t+'</div></div>'}
-async function ask(q){if(!SM||!q)return;busy("‘"+esc(q)+"’와 비슷한 이름을 찾는 중이에요…");
+function api(p,body){return fetch(API+p,body?{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify(body)}:{})
+  .then(function(r){return r.json().catch(function(){return{}}).then(function(j){j._status=r.status;return j})})}
+/* 무료 한도 안내 팝업 */
+function dlg(title,body,okText,onOk){var d=$("aidlg");d.innerHTML='<h3 id="aidlgt">'+title+'</h3>'+body+'<div class="acts2">'+(onOk?'<button class="btn" data-x="0">취소</button>':'')+'<button class="btn pri" data-x="1">'+okText+'</button></div>';
+  d.querySelectorAll("button").forEach(function(b){b.onclick=function(){d.close();if(b.dataset.x==="1"&&onOk)onOk()}});
+  if(d.showModal)d.showModal();else if(onOk)onOk()}
+function lim(qt){var a=qt?qt.perIp:5,z=qt?qt.global:100;return'<p>Claude 웹 검색은 <b>무료 서비스</b>라 사용 한도가 있어요.</p><p>· 한 사람당 <b>하루 '+a+'회</b><br>· 전체 이용자 합계 <b>하루 '+z+'회</b><br>· 누군가 24시간 안에 찾은 이름은 횟수에서 빠지지 않아요<br>· 매일 자정(한국 시간)에 다시 채워져요</p>'+(qt?'<p class="small muted">오늘 남은 횟수: 나 <b>'+qt.ipLeft+'회</b> · 전체 <b>'+qt.globalLeft+'회</b></p>':'')}
+function limitDlg(qt,why){var all=why==="global_limit"||(qt&&qt.globalLeft<=0);dlg("오늘 무료 한도를 다 썼어요",'<p>'+(all?'오늘 전체 이용자 무료 검색 '+(qt?qt.global:100)+'회가 모두 사용됐어요.':'한 사람당 하루 '+(qt?qt.perIp:5)+'회까지 무료로 찾아드려요.')+'</p><p>내일(한국 시간 자정 이후) 다시 이용해 주세요. 목록에 있는 곳은 제한 없이 볼 수 있어요.</p>',"확인")}
+/* 처음 쓸 때(하루 한 번) 한도를 알려주고 찾기 */
+function ask(q){if(!SM||!q)return;var day=new Date().toDateString();
+  if(store("aiNotice")===day){look(q);return}
+  api("/api/quota").catch(function(){return null}).then(function(qt){if(qt&&qt._status!==200)qt=null;
+    if(qt&&(qt.ipLeft<=0||qt.globalLeft<=0)){limitDlg(qt);return}
+    dlg("무료 서비스 안내",lim(qt),"찾기",function(){store("aiNotice",day);look(q)})})}
+async function look(q){busy("‘"+esc(q)+"’의 등급을 웹에서 찾는 중이에요… 30초~1분쯤 걸려요");
   try{
-    var v=await SM.json('너는 이름 찾기 도우미야. 사용자가 입력한 이름은 정확하지 않을 수 있어(약칭, 일부만 입력, 오타, 영문, 띄어쓰기 차이, 초성). 신용등급을 조회할 만한 국가 또는 기업 후보를 최대 10개 골라줘. 입력어가 이름에 들어간 주요 기업·기관도 넓게 포함해(예: 한국 → 대한민국, 한국전력공사, 한국가스공사, 한국수자원공사, 한국도로공사 등 / 삼성 → 삼성전자, 삼성물산, 삼성생명 등). 한국 기업이면 계열사도 포함해(예: 메리츠 → 메리츠금융지주, 메리츠증권, 메리츠화재). 실제로 존재하는 이름만 넣고 지어내지 마. 설명 없이 JSON 배열만 출력해: [{"name":"정식 이름(한글)","en":"영문명","type":"국가 또는 기업"}]\n입력: '+JSON.stringify(q));
-    var list=(Array.isArray(v)?v:[]).slice(0,10);
-    if(!list.length){msg("‘"+esc(q)+"’와 비슷한 이름을 찾지 못했어요. 영문이나 다른 표기로 다시 입력해 보세요.");return}
-    var h='<div class="card"><p class="sec-t"><span>‘'+esc(q)+'’와 비슷한 후보예요</span></p><p class="small muted" style="margin:0">조회할 곳을 눌러주세요.</p><div class="grid">';
-    list.forEach(function(c,i){h+='<button class="it cand" data-i="'+i+'"><span class="mg" style="background:var(--soft);color:var(--mute)">'+(c.type==="국가"?"나라":"회사")+'</span><span class="nn">'+esc(c.name||"")+'</span><span class="tw">'+esc(c.en||"")+'</span></button>'});
-    $("out").innerHTML=h+'</div></div>';
-    $("out").querySelectorAll(".cand").forEach(function(b){b.onclick=function(){var c=list[+b.dataset.i],hit=DB.findIndex(function(d){return d.n===c.name});if(hit>=0){show(hit);return}look(String(c.name)+(c.en?" ("+c.en+")":""))}});
-  }catch(e){msg(e&&e.code==="not_granted"?"권한을 허용해야 Claude에게 물어볼 수 있어요.":e&&e.code==="rate_limited"?"요청이 많아요. 잠시 뒤 다시 시도해 주세요.":"지금은 후보를 찾지 못했어요. 잠시 뒤 다시 시도해 주세요.")}}
-async function look(q){busy("‘"+esc(q)+"’의 등급을 찾는 중이에요…");
-  try{
-    var v=await SM.json('너는 신용등급 조회 도우미야. 아래 이름의 국가 또는 기업(한글·영문·약칭 모두 가능, 예: DBS은행은 DBS Bank, 메릴린치는 BofA Securities)에 대해 네가 아는 범위에서 S&P, Moody’s, Fitch의 장기 발행자 신용등급과 전망을 알려줘. 확실하지 않거나 평가를 모르면 null로 두고 절대 지어내지 마. 표기는 S&P와 Fitch는 AAA, AA+, AA, AA-, A+, A, A-, BBB+ 형식, Moody’s는 Aaa, Aa1, Aa2, Aa3, A1, A2, A3, Baa1 형식이야. 전망은 "안정적","긍정적","부정적" 중 하나 또는 null. 한국 기업이면 국내 신용평가사 3곳의 회사채(장기) 등급도 dom 배열에 [NICE신용평가, 한국신용평가, 한국기업평가] 순서로 넣어줘(AAA, AA+, AA, AA- 형식이고, 모르면 null, 한국 기업이 아니면 모두 null). 설명 없이 JSON만 출력해: {"name":"정식 이름(한글)","type":"국가 또는 기업","sp":null,"moodys":null,"fitch":null,"ol":[null,null,null],"outlook":"짧은 메모 한 줄","asof":"네가 아는 기준 시점(YYYY.MM)","conf":"높음/보통/낮음 중 하나(등급을 얼마나 확신하는지)","en":"영문 정식명","dom":[null,null,null]}\n이름: '+JSON.stringify(q));
+    var v=await api("/api/lookup",{q:q});
+    if(v._status===429){msg("오늘 무료 검색 한도를 다 썼어요.");limitDlg(v.quota,v.error);return}
+    if(v._status!==200)throw v;
     var r=[g(S,v.sp),g(M,v.moodys),g(S,v.fitch)];
-    var dm=Array.isArray(v.dom)?v.dom.slice(0,3).map(function(x){return g(S,x)}):[];while(dm.length<3)dm.push(null);if(!dm[0]&&!dm[1]&&!dm[2])dm=null;
-    if(!r[0]&&!r[1]&&!r[2]&&!dm){msg("‘"+esc(q)+"’의 등급을 찾지 못했어요. 이름을 다르게 적어보거나(영문 등) 다시 시도해 주세요.");return}
+    var dm=(Array.isArray(v.domestic)?v.domestic:[]).slice(0,3).map(function(x){return g(S,x)});while(dm.length<3)dm.push(null);if(!dm[0]&&!dm[1]&&!dm[2])dm=null;
+    if(!r[0]&&!r[1]&&!r[2]&&!dm){msg("‘"+esc(q)+"’의 등급을 확인할 수 있는 최근 자료를 찾지 못했어요. 이름을 다르게 적어보거나(영문 등) 평가사 발표를 직접 확인해 주세요.");return}
     var nm=String(v.name||q),okO=["안정적","긍정적","부정적"];
-    var ol=Array.isArray(v.ol)?v.ol.slice(0,3).map(function(x){return okO.indexOf(x)>=0?x:null}):null;
+    var ol=(Array.isArray(v.outlook)?v.outlook:[]).slice(0,3).map(function(x){return okO.indexOf(x)>=0?x:null});
+    var links=(Array.isArray(v.sources)?v.sources:[]).filter(function(x){return x&&/^https?:\/\//.test(x.url)});
     var ex=findDB(nm,v.en);
-    var rec={n:nm,k:String(v.en||""),t:v.type==="국가"?"국가":"기업",r:r,d:dm,ol:ol,o:String(v.outlook||""),asof:String(v.asof||""),conf:String(v.conf||""),s:"Claude가 아는 범위에서 답한 값이에요. 실시간 검색이 아니라서 오래됐거나 틀릴 수 있어요.",ok:0,ai:1};
+    var rec={n:nm,k:String(v.en||""),t:v.type==="국가"?"국가":"기업",r:r,d:dm,ol:ol,o:"",asof:String(v.asOf||""),conf:String(v.confidence||""),s:"Claude가 웹 검색으로 찾은 값이에요. 아래 링크에서 꼭 다시 확인하세요.",links:links,ok:0,ai:1};
     if(ex>=0&&!DB[ex].ai){var b=DB[ex],df=[];[0,1,2].forEach(function(j){if(r[j]&&b.r[j]&&r[j]!==b.r[j])df.push(NM[j]+" Claude "+r[j]+" / 내장 "+b.r[j])});
-      NOTE="출처를 확인해 둔 내장 데이터가 있어서 그 값을 보여드려요."+(df.length?" <b>Claude 답변과 다른 값:</b> "+esc(df.join(", "))+". 내장 데이터가 더 최근 출처예요.":"");
+      NOTE="출처를 확인해 둔 내장 데이터가 있어서 그 값을 보여드려요."+(df.length?" <b>Claude 검색 결과와 다른 값:</b> "+esc(df.join(", "))+". 아래 출처 날짜를 비교해 보세요.":"");
       show(ex);return}
     rec.id=uid(rec,DB.length);
     if(ex>=0)DB[ex]=rec;else{DB.push(rec);ex=DB.length-1}
     show(ex);
-  }catch(e){msg(e&&e.code==="not_granted"?"권한을 허용해야 Claude에게 물어볼 수 있어요.":e&&e.code==="rate_limited"?"요청이 많아요. 잠시 뒤 다시 시도해 주세요.":"지금은 조회에 실패했어요. 잠시 뒤 다시 시도해 주세요.")}}
+    if(v.quota)toast(v.cached?"저장된 결과라 횟수가 줄지 않았어요":"오늘 남은 무료 검색 "+v.quota.ipLeft+"회");
+  }catch(e){msg("지금은 조회에 실패했어요. 잠시 뒤 다시 시도해 주세요.")}}
 
 /* guide table */
 (function(){var h="";[["AAA",0],["AA",2],["A",5],["BBB",8],["BB",11],["B",14],["CCC~C",17]].forEach(function(r){var d=DR[r[0]];
@@ -476,7 +492,7 @@ function renderChanges(){var now=new Date(),lim=now.getFullYear()*12+now.getMont
   c.querySelectorAll(".chg").forEach(function(b){b.onclick=function(){show(+b.dataset.i)}});
   if($("chmore"))$("chmore").onclick=function(){c.dataset.more=more?"0":"1";renderChanges()}}
 
-if(window.claude&&claude.use)claude.use("sample").then(function(s){SM=s;renderList();askRow()}).catch(function(){});
+SM=API?1:null;
 renderCmpBar();
 loadData().then(function(j){DB=j.entities.map(rec);DB.forEach(function(d){IDS[d.id]=1});renderChanges();
   var h=(location.hash||"").slice(1),i=h?DB.findIndex(function(d){return d.id===h}):-1;show(i>=0?i:0,i<0)

@@ -12,8 +12,10 @@
 - 화면 기능: 쉬운 말 판정(매우 안전~부도 7단계), 5년 부도율 체감 문구, 평가사 3곳 한 줄 눈금,
   국내 vs 국제 비교, 비교함(최대 4곳), 초성 검색·자동완성, 분류 필터, 즐겨찾기(localStorage),
   결과 복사, `#id` 딥링크, 최근 12개월 등급 변동, 다크 모드.
-- 'Claude에게 찾아달라고 하기'는 claude.ai 아티팩트 전용 API(`claude.use("sample")`)를 써서
-  **일반 웹사이트에서는 동작하지 않음**(버튼이 자동으로 숨겨짐). → 아래 2단계에서 서버로 대체.
+- 배포: https://sogogiboy.github.io/credit-rating-search/ (`.github/workflows/pages.yml`이 `site/` + `data/`를 올림).
+- 'Claude에게 찾아달라고 하기'는 `worker/`(Cloudflare Worker, `/api/lookup`·`/api/quota`)를 호출.
+  `site/index.html`의 `var API=""`에 Worker 주소를 넣어야 버튼이 보임. 무료 한도 IP당 하루 5회·전체 100회(`wrangler.toml` vars),
+  처음 쓸 때 하루 한 번 한도 안내 팝업. 같은 이름 결과는 KV에 24시간 캐시(횟수 차감 없음).
 
 ## 해야 할 일 (순서대로)
 1. **구조 정리**: `site/index.html`의 내장 데이터를 제거하고 `data/ratings.json`을 fetch해서 쓰도록 리팩터링.

@@ -1,0 +1,17 @@
+name = "credit-rating-lookup"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+# 사용 한도·캐시 저장소. `npx wrangler kv namespace create LIMITS` 결과의 id를 넣으세요.
+[[kv_namespaces]]
+binding = "LIMITS"
+id = "REPLACE_WITH_KV_ID"
+
+[vars]
+ALLOWED_ORIGINS = "https://sogogiboy.github.io,http://localhost:8080"
+PER_IP_DAILY = "5"
+GLOBAL_DAILY = "100"
+MODEL = "claude-opus-5-5"
+
+# ANTHROPIC_API_KEY는 여기 적지 말고 `npx wrangler secret put ANTHROPIC_API_KEY`로만 넣으세요.
