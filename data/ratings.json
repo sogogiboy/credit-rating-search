@@ -1,0 +1,4570 @@
+{
+ "updatedAt": "2026-10-24",
+ "note": "S&P/Fitch scale AAA..D, Moody's Aaa..C. null = not confirmed. verified=true means values came from a cited 2024-2026 source.",
+ "entities": [
+  {
+   "id": "korea",
+   "name": "대한민국",
+   "keywords": "Korea South Korea KR 한국",
+   "type": "country",
+   "group": "선진국",
+   "category": "나라",
+   "intl": {
+    "sp": "AA",
+    "moodys": "Aa2",
+    "fitch": "AA-"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2026.04",
+     "agency": "S&P",
+     "change": "AA·안정적 유지"
+    },
+    {
+     "date": "2026 상반기",
+     "agency": "피치·무디스",
+     "change": "등급·전망 모두 유지"
+    }
+   ],
+   "memo": "3사 모두 등급·전망 유지(2026 기준)",
+   "source": "헤럴드경제 2026.04(S&P), 트위그 2026.02(무디스), 뉴시스 2026.01(피치)",
+   "verified": true
+  },
+  {
+   "id": "france",
+   "name": "프랑스",
+   "keywords": "France FR",
+   "type": "country",
+   "group": "선진국",
+   "category": "나라",
+   "intl": {
+    "sp": "A+",
+    "moodys": "Aa3",
+    "fitch": "A+"
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": "부정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.10",
+     "agency": "무디스",
+     "change": "Aa3 유지, 전망 안정적→부정적"
+    },
+    {
+     "date": "2025.10",
+     "agency": "S&P",
+     "change": "AA-→A+ 하향"
+    },
+    {
+     "date": "2025.09",
+     "agency": "피치",
+     "change": "AA-→A+ 하향"
+    }
+   ],
+   "memo": "2024~25년 3사 연쇄 하향, 무디스 전망 부정적",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2026.03 조치)",
+   "verified": true
+  },
+  {
+   "id": "united",
+   "name": "미국",
+   "keywords": "United States USA US",
+   "type": "country",
+   "group": "선진국",
+   "category": "나라",
+   "intl": {
+    "sp": "AA+",
+    "moodys": "Aa1",
+    "fitch": "AA+"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2023.08",
+     "agency": "피치",
+     "change": "AAA→AA+ 하향"
+    }
+   ],
+   "memo": "무디스 2025.05 Aaa 상실로 3사 모두 AAA 아님",
+   "source": "The Star 2026.06(S&P), investingLive 2026.08(피치), TradingEconomics(S&P·무디스, 2026.10 조회)",
+   "verified": true
+  },
+  {
+   "id": "japan",
+   "name": "일본",
+   "keywords": "Japan JP",
+   "type": "country",
+   "group": "선진국",
+   "category": "나라",
+   "intl": {
+    "sp": "A+",
+    "moodys": "A1",
+    "fitch": "A"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "3사 유지(2026.10 기준)",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2026.01 조치)",
+   "verified": true
+  },
+  {
+   "id": "china",
+   "name": "중국",
+   "keywords": "China CN PRC",
+   "type": "country",
+   "group": "신흥국",
+   "category": "나라",
+   "intl": {
+    "sp": "A+",
+    "moodys": "A1",
+    "fitch": "A"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.04",
+     "agency": "Fitch",
+     "change": "A+→A 하향"
+    },
+    {
+     "date": "2026.04",
+     "agency": "Moody's",
+     "change": "A1 전망 부정적→안정적"
+    }
+   ],
+   "memo": "무디스 2026.04 전망 안정적 복귀",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2025.04 조치); 위키 무디스(2026.04)",
+   "verified": true
+  },
+  {
+   "id": "germany",
+   "name": "독일",
+   "keywords": "Germany DE",
+   "type": "country",
+   "group": "선진국",
+   "category": "나라",
+   "intl": {
+    "sp": "AAA",
+    "moodys": "Aaa",
+    "fitch": "AAA"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "3사 최고등급 유지",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2025.07 조치)",
+   "verified": true
+  },
+  {
+   "id": "shinhan",
+   "name": "신한금융지주",
+   "keywords": "신한 shinhan",
+   "type": "company",
+   "group": "국내 기업",
+   "category": "국내 기업",
+   "intl": {
+    "sp": "A",
+    "moodys": "A1",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": {
+    "nice": "AAA",
+    "kis": "AAA",
+    "kr": "AAA"
+   },
+   "shortTerm": null,
+   "history": [],
+   "memo": "전망 안정적",
+   "source": "신한금융그룹 IR 페이지",
+   "verified": true
+  },
+  {
+   "id": "shinhan-2",
+   "name": "신한은행",
+   "keywords": "신한 shinhan bank",
+   "type": "company",
+   "group": "국내 기업",
+   "category": "국내 기업",
+   "intl": {
+    "sp": "A+",
+    "moodys": "Aa3",
+    "fitch": "A"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": {
+    "nice": "AAA",
+    "kis": "AAA",
+    "kr": "AAA"
+   },
+   "shortTerm": null,
+   "history": [],
+   "memo": "전망 안정적",
+   "source": "신한금융그룹 IR 페이지",
+   "verified": true
+  },
+  {
+   "id": "shinhan-3",
+   "name": "신한카드",
+   "keywords": "신한 shinhan card",
+   "type": "company",
+   "group": "국내 기업",
+   "category": "국내 기업",
+   "intl": {
+    "sp": "A-",
+    "moodys": "A2",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": {
+    "nice": "AA+",
+    "kis": "AA+",
+    "kr": "AA+"
+   },
+   "shortTerm": null,
+   "history": [],
+   "memo": "전망 안정적",
+   "source": "신한금융그룹 IR 페이지",
+   "verified": true
+  },
+  {
+   "id": "shinhan-4",
+   "name": "신한투자증권",
+   "keywords": "신한 shinhan securities",
+   "type": "company",
+   "group": "국내 기업",
+   "category": "국내 기업",
+   "intl": {
+    "sp": "A-",
+    "moodys": "A3",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "부정적",
+    "fitch": null
+   },
+   "domestic": {
+    "nice": "AA",
+    "kis": "AA",
+    "kr": "AA"
+   },
+   "shortTerm": null,
+   "history": [],
+   "memo": "무디스 전망 부정적",
+   "source": "신한금융그룹 IR 페이지",
+   "verified": true
+  },
+  {
+   "id": "sk",
+   "name": "SK하이닉스",
+   "keywords": "sk hynix 하이닉스 에스케이",
+   "type": "company",
+   "group": "국내 기업",
+   "category": "국내 기업",
+   "intl": {
+    "sp": "BBB+",
+    "moodys": "A3",
+    "fitch": "BBB+"
+   },
+   "outlook": {
+    "sp": "긍정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": {
+    "nice": "AA+",
+    "kis": "AA+",
+    "kr": "AA+"
+   },
+   "shortTerm": {
+    "nice": "A1",
+    "kis": "A1",
+    "kr": "A1",
+    "asOf": "2025.10 기준"
+   },
+   "history": [
+    {
+     "date": "2026.08",
+     "agency": "무디스",
+     "change": "Baa1→A3 상향"
+    },
+    {
+     "date": "2026.01~03",
+     "agency": "국내 3사",
+     "change": "AA→AA+ 상향(사업보고서 기준)"
+    }
+   ],
+   "memo": "S&P 전망 긍정적, 피치 안정적. 무디스는 2026.8 A3로 상향",
+   "source": "언론 보도(2026.8), 사업보고서",
+   "verified": true
+  },
+  {
+   "id": "lg",
+   "name": "LG전자",
+   "keywords": "lg electronics 엘지",
+   "type": "company",
+   "group": "국내 기업",
+   "category": "국내 기업",
+   "intl": {
+    "sp": "BBB+",
+    "moodys": "Baa1",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": {
+    "nice": "AA",
+    "kis": "AA",
+    "kr": "AA"
+   },
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2026.06",
+     "agency": "S&P",
+     "change": "BBB→BBB+ 상향"
+    },
+    {
+     "date": "2026.01",
+     "agency": "무디스",
+     "change": "Baa2→Baa1 상향"
+    }
+   ],
+   "memo": "S&P(2026.6)와 무디스(2026.1) 모두 상향, 전망 안정적. 국내 등급은 2025.6 기준",
+   "source": "언론 보도, LG전자 IR 페이지",
+   "verified": true
+  },
+  {
+   "id": "samsung",
+   "name": "삼성화재",
+   "keywords": "samsung fire 삼성화재해상보험",
+   "type": "company",
+   "group": "국내 기업",
+   "category": "국내 기업",
+   "intl": {
+    "sp": "AA",
+    "moodys": null,
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2026.08",
+     "agency": "S&P",
+     "change": "AA-→AA 상향"
+    }
+   ],
+   "memo": "S&P 2026.8 AA로 상향(국내 민간기업 최초)",
+   "source": "언론 보도(2026.8)",
+   "verified": true
+  },
+  {
+   "id": "posco",
+   "name": "포스코인터내셔널",
+   "keywords": "posco international 포스코",
+   "type": "company",
+   "group": "국내 기업",
+   "category": "국내 기업",
+   "intl": {
+    "sp": "BBB+",
+    "moodys": "Baa2",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2024.08",
+     "agency": "S&P·무디스",
+     "change": "첫 국제등급 취득(BBB+, Baa2)"
+    }
+   ],
+   "memo": "전망 안정적 (2024.8 기준, 이후 변동 가능)",
+   "source": "회사 발표 보도(2024.8)",
+   "verified": true
+  },
+  {
+   "id": "samsung-2",
+   "name": "삼성전자",
+   "keywords": "Samsung Electronics",
+   "type": "company",
+   "group": "코스피",
+   "category": "국내 기업",
+   "intl": {
+    "sp": "AA-",
+    "moodys": "Aa2",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "긍정적",
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.01",
+     "agency": "Moody's",
+     "change": "Aa2 유지, 전망 안정적→부정적"
+    },
+    {
+     "date": "2025.11",
+     "agency": "Moody's",
+     "change": "Aa2 유지, 전망 부정적→안정적(인하 10개월 후, 정확한 날짜 미확인)"
+    },
+    {
+     "date": "2026.07",
+     "agency": "S&P",
+     "change": "AA- 유지, 전망 안정적→긍정적"
+    }
+   ],
+   "memo": "2026.07 기준. 국내 회사채 미발행으로 국내 등급 없음. 피치 등급 미확인",
+   "source": "삼성전자 IR(2026.07), 한국경제·다음(2026.07.22), 메트로신문(2026.02.11)",
+   "verified": true
+  },
+  {
+   "id": "apple",
+   "name": "애플",
+   "keywords": "apple aapl",
+   "type": "company",
+   "group": "나스닥",
+   "category": "미국",
+   "intl": {
+    "sp": "AA+",
+    "moodys": "Aaa",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "초우량. S&P AA+, 무디스 최고등급 Aaa (2025~2026 기준)",
+   "source": "애플 사채 발행서류(2025.05), investmentgrade.com(2026.10 확인)",
+   "verified": true
+  },
+  {
+   "id": "microsoft",
+   "name": "마이크로소프트",
+   "keywords": "microsoft msft",
+   "type": "company",
+   "group": "나스닥",
+   "category": "미국",
+   "intl": {
+    "sp": "AAA",
+    "moodys": "Aaa",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2026.08",
+     "agency": "무디스",
+     "change": "Aaa 재확인, 전망 안정적"
+    }
+   ],
+   "memo": "S&P·무디스 모두 최고등급 AAA/Aaa (2026.08 기준)",
+   "source": "무디스 Aaa 재확인(Newsquawk 2026.08.21), 247wallst(2026.05)",
+   "verified": true
+  },
+  {
+   "id": "united-2",
+   "name": "영국",
+   "keywords": "United Kingdom UK GB Britain",
+   "type": "country",
+   "group": "선진국",
+   "category": "나라",
+   "intl": {
+    "sp": "AA",
+    "moodys": "Aa3",
+    "fitch": "AA-"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "3사 유지; 피치는 2025년 이후 개별확인 못함",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2024.03 조치)",
+   "verified": false
+  },
+  {
+   "id": "italy",
+   "name": "이탈리아",
+   "keywords": "Italy IT",
+   "type": "country",
+   "group": "선진국",
+   "category": "나라",
+   "intl": {
+    "sp": "BBB+",
+    "moodys": "Baa2",
+    "fitch": "BBB+"
+   },
+   "outlook": {
+    "sp": "긍정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.04",
+     "agency": "S&P",
+     "change": "BBB→BBB+ 상향"
+    },
+    {
+     "date": "2025.11",
+     "agency": "Moody's",
+     "change": "Baa3→Baa2 상향"
+    },
+    {
+     "date": "2026.01",
+     "agency": "S&P",
+     "change": "BBB+ 전망 긍정적"
+    }
+   ],
+   "memo": "2025년 3사 모두 상향, S&P 전망 긍정적(2026.01)",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2025.09 조치); 위키 무디스(2025.11)",
+   "verified": true
+  },
+  {
+   "id": "spain",
+   "name": "스페인",
+   "keywords": "Spain ES",
+   "type": "country",
+   "group": "선진국",
+   "category": "나라",
+   "intl": {
+    "sp": "A+",
+    "moodys": "A3",
+    "fitch": "A"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.09",
+     "agency": "S&P",
+     "change": "A→A+ 상향"
+    },
+    {
+     "date": "2025.09",
+     "agency": "Moody's",
+     "change": "Baa1→A3 상향"
+    }
+   ],
+   "memo": "2025.09 3사 모두 상향",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2025.09 조치); 위키 무디스(2025.09)",
+   "verified": true
+  },
+  {
+   "id": "canada",
+   "name": "캐나다",
+   "keywords": "Canada CA",
+   "type": "country",
+   "group": "선진국",
+   "category": "나라",
+   "intl": {
+    "sp": "AAA",
+    "moodys": "Aaa",
+    "fitch": "AA+"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "피치만 AA+",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2025.07 조치)",
+   "verified": true
+  },
+  {
+   "id": "australia",
+   "name": "호주",
+   "keywords": "Australia AU",
+   "type": "country",
+   "group": "선진국",
+   "category": "나라",
+   "intl": {
+    "sp": "AAA",
+    "moodys": "Aaa",
+    "fitch": "AAA"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "3사 최고등급 유지",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2025.10 조치)",
+   "verified": true
+  },
+  {
+   "id": "new",
+   "name": "뉴질랜드",
+   "keywords": "New Zealand NZ",
+   "type": "country",
+   "group": "선진국",
+   "category": "나라",
+   "intl": {
+    "sp": "AA+",
+    "moodys": "Aaa",
+    "fitch": "AA+"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "부정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "무디스 Aaa이나 전망 부정적(TE 기준)",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2025.08 조치)",
+   "verified": true
+  },
+  {
+   "id": "switzerland",
+   "name": "스위스",
+   "keywords": "Switzerland CH Swiss",
+   "type": "country",
+   "group": "선진국",
+   "category": "나라",
+   "intl": {
+    "sp": "AAA",
+    "moodys": "Aaa",
+    "fitch": "AAA"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "3사 최고등급; 피치 2025년 이후 개별확인 못함",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표",
+   "verified": false
+  },
+  {
+   "id": "netherlands",
+   "name": "네덜란드",
+   "keywords": "Netherlands NL Holland",
+   "type": "country",
+   "group": "선진국",
+   "category": "나라",
+   "intl": {
+    "sp": "AAA",
+    "moodys": "Aaa",
+    "fitch": "AAA"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "3사 최고등급 유지",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2026.01 조치)",
+   "verified": true
+  },
+  {
+   "id": "sweden",
+   "name": "스웨덴",
+   "keywords": "Sweden SE",
+   "type": "country",
+   "group": "선진국",
+   "category": "나라",
+   "intl": {
+    "sp": "AAA",
+    "moodys": "Aaa",
+    "fitch": "AAA"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "3사 최고등급; 피치 2025년 이후 개별확인 못함",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표",
+   "verified": false
+  },
+  {
+   "id": "norway",
+   "name": "노르웨이",
+   "keywords": "Norway NO",
+   "type": "country",
+   "group": "선진국",
+   "category": "나라",
+   "intl": {
+    "sp": "AAA",
+    "moodys": "Aaa",
+    "fitch": "AAA"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "3사 최고등급; 피치 2025년 이후 개별확인 못함",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표",
+   "verified": false
+  },
+  {
+   "id": "singapore",
+   "name": "싱가포르",
+   "keywords": "Singapore SG",
+   "type": "country",
+   "group": "선진국",
+   "category": "나라",
+   "intl": {
+    "sp": "AAA",
+    "moodys": "Aaa",
+    "fitch": "AAA"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "3사 최고등급; 피치 2025년 이후 개별확인 못함",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표",
+   "verified": false
+  },
+  {
+   "id": "hong",
+   "name": "홍콩",
+   "keywords": "Hong Kong HK",
+   "type": "country",
+   "group": "선진국",
+   "category": "나라",
+   "intl": {
+    "sp": "AA+",
+    "moodys": "Aa3",
+    "fitch": "AA-"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.05",
+     "agency": "Fitch",
+     "change": "AA- 전망 부정적→안정적"
+    }
+   ],
+   "memo": "피치 2025.05 전망 안정적",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2025.05 조치)",
+   "verified": true
+  },
+  {
+   "id": "taiwan",
+   "name": "대만",
+   "keywords": "Taiwan TW",
+   "type": "country",
+   "group": "선진국",
+   "category": "나라",
+   "intl": {
+    "sp": "AA+",
+    "moodys": "Aa3",
+    "fitch": "AA"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "피치 2025년 이후 개별확인 못함",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2021 조치)",
+   "verified": false
+  },
+  {
+   "id": "india",
+   "name": "인도",
+   "keywords": "India IN",
+   "type": "country",
+   "group": "신흥국",
+   "category": "나라",
+   "intl": {
+    "sp": "BBB",
+    "moodys": "Baa3",
+    "fitch": "BBB-"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2024.05",
+     "agency": "S&P",
+     "change": "BBB- 전망 긍정적"
+    },
+    {
+     "date": "2025.08",
+     "agency": "S&P",
+     "change": "BBB-→BBB 상향"
+    }
+   ],
+   "memo": "S&P 2025.08 18년 만에 상향",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2025.08 조치)",
+   "verified": true
+  },
+  {
+   "id": "indonesia",
+   "name": "인도네시아",
+   "keywords": "Indonesia ID",
+   "type": "country",
+   "group": "신흥국",
+   "category": "나라",
+   "intl": {
+    "sp": "BBB",
+    "moodys": "Baa2",
+    "fitch": "BBB"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "부정적",
+    "fitch": "부정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2026.02",
+     "agency": "Moody's",
+     "change": "Baa2 전망 부정적"
+    },
+    {
+     "date": "2026.03",
+     "agency": "Fitch",
+     "change": "BBB 전망 부정적"
+    }
+   ],
+   "memo": "무디스·피치 2026년 전망 부정적",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2026.03 조치); 위키 무디스(2026.02)",
+   "verified": true
+  },
+  {
+   "id": "vietnam",
+   "name": "베트남",
+   "keywords": "Vietnam Viet Nam VN",
+   "type": "country",
+   "group": "신흥국",
+   "category": "나라",
+   "intl": {
+    "sp": "BB+",
+    "moodys": "Ba2",
+    "fitch": "BB+"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "긍정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "무디스 전망 긍정적; 피치 2025년 이후 확인 못함",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2023 조치)",
+   "verified": false
+  },
+  {
+   "id": "thailand",
+   "name": "태국",
+   "keywords": "Thailand TH",
+   "type": "country",
+   "group": "신흥국",
+   "category": "나라",
+   "intl": {
+    "sp": "BBB+",
+    "moodys": "Baa1",
+    "fitch": "BBB+"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "부정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.09",
+     "agency": "Fitch",
+     "change": "BBB+ 전망 부정적"
+    }
+   ],
+   "memo": "피치 2025.09 전망 부정적",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2025.09 조치)",
+   "verified": true
+  },
+  {
+   "id": "malaysia",
+   "name": "말레이시아",
+   "keywords": "Malaysia MY",
+   "type": "country",
+   "group": "신흥국",
+   "category": "나라",
+   "intl": {
+    "sp": "A-",
+    "moodys": "A3",
+    "fitch": "BBB+"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "3사 유지",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2025.12 조치)",
+   "verified": true
+  },
+  {
+   "id": "philippines",
+   "name": "필리핀",
+   "keywords": "Philippines PH",
+   "type": "country",
+   "group": "신흥국",
+   "category": "나라",
+   "intl": {
+    "sp": "BBB+",
+    "moodys": "Baa2",
+    "fitch": "BBB"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2024.11",
+     "agency": "S&P",
+     "change": "BBB+ 전망 긍정적"
+    },
+    {
+     "date": "2026.04",
+     "agency": "S&P",
+     "change": "BBB+ 전망 긍정적→안정적"
+    }
+   ],
+   "memo": "S&P 2026.04 전망 안정적 환원; 피치 2025년 이후 확인 못함",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2023 조치)",
+   "verified": false
+  },
+  {
+   "id": "saudi",
+   "name": "사우디아라비아",
+   "keywords": "Saudi Arabia KSA SA",
+   "type": "country",
+   "group": "신흥국",
+   "category": "나라",
+   "intl": {
+    "sp": "A+",
+    "moodys": "Aa3",
+    "fitch": "A+"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2024.09",
+     "agency": "S&P",
+     "change": "A 전망 긍정적"
+    },
+    {
+     "date": "2024.11",
+     "agency": "Moody's",
+     "change": "A1→Aa3 상향"
+    },
+    {
+     "date": "2025.03",
+     "agency": "S&P",
+     "change": "A→A+ 상향"
+    }
+   ],
+   "memo": "2024~25 S&P·무디스 상향; 피치 2025년 이후 확인 못함",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2023 조치)",
+   "verified": false
+  },
+  {
+   "id": "united-3",
+   "name": "아랍에미리트",
+   "keywords": "United Arab Emirates UAE AE",
+   "type": "country",
+   "group": "신흥국",
+   "category": "나라",
+   "intl": {
+    "sp": "AA",
+    "moodys": "Aa2",
+    "fitch": "AA-"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "피치 2025년 이후 개별확인 못함",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2020 조치)",
+   "verified": false
+  },
+  {
+   "id": "qatar",
+   "name": "카타르",
+   "keywords": "Qatar QA",
+   "type": "country",
+   "group": "신흥국",
+   "category": "나라",
+   "intl": {
+    "sp": "AA",
+    "moodys": "Aa2",
+    "fitch": "AA"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "피치 2025년 이후 개별확인 못함",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2024 조치)",
+   "verified": false
+  },
+  {
+   "id": "israel",
+   "name": "이스라엘",
+   "keywords": "Israel IL",
+   "type": "country",
+   "group": "선진국",
+   "category": "나라",
+   "intl": {
+    "sp": "A",
+    "moodys": "Baa1",
+    "fitch": "A"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2024.04",
+     "agency": "S&P",
+     "change": "AA-→A+ 하향"
+    },
+    {
+     "date": "2024.09",
+     "agency": "Moody's",
+     "change": "A2→Baa1 하향"
+    },
+    {
+     "date": "2024.10",
+     "agency": "S&P",
+     "change": "A+→A 하향"
+    },
+    {
+     "date": "2025.11",
+     "agency": "S&P",
+     "change": "A 전망 부정적→안정적"
+    }
+   ],
+   "memo": "2024년 전쟁 여파 연쇄 하향; 피치 전망은 출처 상충",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2025.03 조치)",
+   "verified": true
+  },
+  {
+   "id": "turkey",
+   "name": "튀르키예",
+   "keywords": "Turkey Turkiye TR 터키",
+   "type": "country",
+   "group": "신흥국",
+   "category": "나라",
+   "intl": {
+    "sp": "BB-",
+    "moodys": "Ba3",
+    "fitch": "BB-"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2024.05",
+     "agency": "S&P",
+     "change": "B→B+ 상향"
+    },
+    {
+     "date": "2024.07",
+     "agency": "Moody's",
+     "change": "B3→B1 상향"
+    },
+    {
+     "date": "2024.09",
+     "agency": "Fitch",
+     "change": "B+→BB- 상향"
+    },
+    {
+     "date": "2024.11",
+     "agency": "S&P",
+     "change": "B+→BB- 상향"
+    }
+   ],
+   "memo": "2024~25 3사 상향; 피치 2025년 이후 확인 못함",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2024 조치)",
+   "verified": false
+  },
+  {
+   "id": "brazil",
+   "name": "브라질",
+   "keywords": "Brazil BR",
+   "type": "country",
+   "group": "신흥국",
+   "category": "나라",
+   "intl": {
+    "sp": "BB",
+    "moodys": "Ba1",
+    "fitch": "BB"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2024.10",
+     "agency": "Moody's",
+     "change": "Ba2→Ba1 상향"
+    }
+   ],
+   "memo": "무디스 Ba1(투자등급 한 단계 아래)",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2025.06 조치)",
+   "verified": true
+  },
+  {
+   "id": "mexico",
+   "name": "멕시코",
+   "keywords": "Mexico MX",
+   "type": "country",
+   "group": "신흥국",
+   "category": "나라",
+   "intl": {
+    "sp": "BBB",
+    "moodys": "Baa3",
+    "fitch": "BBB-"
+   },
+   "outlook": {
+    "sp": "부정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2024.11",
+     "agency": "Moody's",
+     "change": "Baa2 전망 부정적"
+    },
+    {
+     "date": "2026.05",
+     "agency": "S&P",
+     "change": "BBB 전망 부정적"
+    }
+   ],
+   "memo": "무디스 Baa3로 하향, S&P 전망 부정적(2026.05)",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2025.04 조치)",
+   "verified": true
+  },
+  {
+   "id": "argentina",
+   "name": "아르헨티나",
+   "keywords": "Argentina AR",
+   "type": "country",
+   "group": "신흥국",
+   "category": "나라",
+   "intl": {
+    "sp": "B-",
+    "moodys": "B3",
+    "fitch": "B-"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "긍정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.07",
+     "agency": "Moody's",
+     "change": "Caa1로 상향"
+    },
+    {
+     "date": "2025.12",
+     "agency": "S&P",
+     "change": "CCC→CCC+ 상향"
+    },
+    {
+     "date": "2026.05",
+     "agency": "Fitch",
+     "change": "B-로 상향"
+    },
+    {
+     "date": "2026.06",
+     "agency": "S&P",
+     "change": "CCC+→B- 상향"
+    }
+   ],
+   "memo": "2025~26 3사 연속 상향",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2026.05 조치)",
+   "verified": true
+  },
+  {
+   "id": "chile",
+   "name": "칠레",
+   "keywords": "Chile CL",
+   "type": "country",
+   "group": "신흥국",
+   "category": "나라",
+   "intl": {
+    "sp": "A",
+    "moodys": "A2",
+    "fitch": "A-"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "3사 유지",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2025.09 조치)",
+   "verified": true
+  },
+  {
+   "id": "south",
+   "name": "남아프리카공화국",
+   "keywords": "South Africa ZA RSA 남아공",
+   "type": "country",
+   "group": "신흥국",
+   "category": "나라",
+   "intl": {
+    "sp": "BB",
+    "moodys": "Ba2",
+    "fitch": "BB-"
+   },
+   "outlook": {
+    "sp": "긍정적",
+    "moodys": "긍정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2024.11",
+     "agency": "S&P",
+     "change": "BB- 전망 긍정적"
+    },
+    {
+     "date": "2025.11",
+     "agency": "S&P",
+     "change": "BB-→BB 상향"
+    }
+   ],
+   "memo": "S&P 2025.11 상향; 피치 2025년 이후 확인 못함",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2021 조치)",
+   "verified": false
+  },
+  {
+   "id": "poland",
+   "name": "폴란드",
+   "keywords": "Poland PL",
+   "type": "country",
+   "group": "신흥국",
+   "category": "나라",
+   "intl": {
+    "sp": "A-",
+    "moodys": "A3",
+    "fitch": "A-"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "무디스 A3(TE 기준); 피치 전망 확인 못함",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2023 조치)",
+   "verified": false
+  },
+  {
+   "id": "czech",
+   "name": "체코",
+   "keywords": "Czech Republic Czechia CZ",
+   "type": "country",
+   "group": "선진국",
+   "category": "나라",
+   "intl": {
+    "sp": "AA-",
+    "moodys": "Aa3",
+    "fitch": "AA-"
+   },
+   "outlook": {
+    "sp": "긍정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2026.09",
+     "agency": "S&P",
+     "change": "AA- 전망 긍정적"
+    }
+   ],
+   "memo": "S&P 2026.09 전망 긍정적",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 체코중앙은행 2026.09; 위키 피치 표(2026.02 조치)",
+   "verified": true
+  },
+  {
+   "id": "hungary",
+   "name": "헝가리",
+   "keywords": "Hungary HU",
+   "type": "country",
+   "group": "신흥국",
+   "category": "나라",
+   "intl": {
+    "sp": "BBB-",
+    "moodys": "Baa2",
+    "fitch": "BBB"
+   },
+   "outlook": {
+    "sp": "부정적",
+    "moodys": "부정적",
+    "fitch": "부정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.04",
+     "agency": "S&P",
+     "change": "BBB- 전망 부정적"
+    }
+   ],
+   "memo": "3사 모두 전망 부정적",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2025.12 조치)",
+   "verified": true
+  },
+  {
+   "id": "egypt",
+   "name": "이집트",
+   "keywords": "Egypt EG",
+   "type": "country",
+   "group": "신흥국",
+   "category": "나라",
+   "intl": {
+    "sp": "B",
+    "moodys": "B3",
+    "fitch": "B"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "긍정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.04",
+     "agency": "S&P",
+     "change": "B- 전망 안정적"
+    },
+    {
+     "date": "2025.10",
+     "agency": "S&P",
+     "change": "B-→B 상향"
+    }
+   ],
+   "memo": "S&P 2025.10 상향",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2025.10 조치)",
+   "verified": true
+  },
+  {
+   "id": "nigeria",
+   "name": "나이지리아",
+   "keywords": "Nigeria NG",
+   "type": "country",
+   "group": "신흥국",
+   "category": "나라",
+   "intl": {
+    "sp": "B",
+    "moodys": "B3",
+    "fitch": "B"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "긍정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.11",
+     "agency": "S&P",
+     "change": "B- 전망 긍정적"
+    },
+    {
+     "date": "2026.05",
+     "agency": "S&P",
+     "change": "B-→B 상향"
+    }
+   ],
+   "memo": "S&P 2026.05 상향",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2025.10 조치)",
+   "verified": true
+  },
+  {
+   "id": "ukraine",
+   "name": "우크라이나",
+   "keywords": "Ukraine UA",
+   "type": "country",
+   "group": "신흥국",
+   "category": "나라",
+   "intl": {
+    "sp": "CCC+",
+    "moodys": "Ca",
+    "fitch": "CCC"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2024.08",
+     "agency": "S&P",
+     "change": "CC→SD(선택적 디폴트)"
+    },
+    {
+     "date": "2026.01",
+     "agency": "S&P",
+     "change": "SD→CCC+"
+    }
+   ],
+   "memo": "채무조정 후 S&P 2026.01 CCC+",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2025.12 조치)",
+   "verified": true
+  },
+  {
+   "id": "greece",
+   "name": "그리스",
+   "keywords": "Greece GR",
+   "type": "country",
+   "group": "선진국",
+   "category": "나라",
+   "intl": {
+    "sp": "BBB",
+    "moodys": "Baa3",
+    "fitch": "BBB"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "긍정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.03",
+     "agency": "Moody's",
+     "change": "Ba1→Baa3 상향"
+    },
+    {
+     "date": "2025.04",
+     "agency": "S&P",
+     "change": "BBB-→BBB 상향"
+    }
+   ],
+   "memo": "2025년 3사 모두 투자등급 상향",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2025.11 조치); 위키 무디스(2025.03)",
+   "verified": true
+  },
+  {
+   "id": "portugal",
+   "name": "포르투갈",
+   "keywords": "Portugal PT",
+   "type": "country",
+   "group": "선진국",
+   "category": "나라",
+   "intl": {
+    "sp": "A+",
+    "moodys": "A3",
+    "fitch": "A"
+   },
+   "outlook": {
+    "sp": "긍정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.02",
+     "agency": "S&P",
+     "change": "A-→A 상향"
+    },
+    {
+     "date": "2025.08",
+     "agency": "S&P",
+     "change": "A→A+ 상향"
+    },
+    {
+     "date": "2026.02",
+     "agency": "S&P",
+     "change": "A+ 전망 긍정적"
+    }
+   ],
+   "memo": "S&P 2025 두 차례 상향",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2025.09 조치)",
+   "verified": true
+  },
+  {
+   "id": "ireland",
+   "name": "아일랜드",
+   "keywords": "Ireland IE",
+   "type": "country",
+   "group": "선진국",
+   "category": "나라",
+   "intl": {
+    "sp": "AA+",
+    "moodys": "Aa2",
+    "fitch": "AA"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "긍정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2024.11",
+     "agency": "S&P",
+     "change": "AA 전망 긍정적"
+    },
+    {
+     "date": "2026.03",
+     "agency": "S&P",
+     "change": "AA→AA+ 상향"
+    }
+   ],
+   "memo": "S&P 2026.03 AA+ 상향",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2025.11 조치)",
+   "verified": true
+  },
+  {
+   "id": "kazakhstan",
+   "name": "카자흐스탄",
+   "keywords": "Kazakhstan KZ",
+   "type": "country",
+   "group": "신흥국",
+   "category": "나라",
+   "intl": {
+    "sp": "BBB",
+    "moodys": "Baa1",
+    "fitch": "BBB"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2024.09",
+     "agency": "Moody's",
+     "change": "Baa2→Baa1 상향"
+    },
+    {
+     "date": "2025.08",
+     "agency": "S&P",
+     "change": "BBB- 전망 긍정적"
+    },
+    {
+     "date": "2026.08",
+     "agency": "S&P",
+     "change": "BBB-→BBB 상향"
+    }
+   ],
+   "memo": "S&P 2026.08 상향",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2025.07 조치)",
+   "verified": true
+  },
+  {
+   "id": "mongolia",
+   "name": "몽골",
+   "keywords": "Mongolia MN",
+   "type": "country",
+   "group": "신흥국",
+   "category": "나라",
+   "intl": {
+    "sp": "BB-",
+    "moodys": "B1",
+    "fitch": "B+"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2024.10",
+     "agency": "S&P",
+     "change": "B+ 전망 긍정적"
+    },
+    {
+     "date": "2025.09",
+     "agency": "Fitch",
+     "change": "B→B+ 상향"
+    },
+    {
+     "date": "2025.10",
+     "agency": "S&P",
+     "change": "B+→BB- 상향"
+    }
+   ],
+   "memo": "2025년 S&P·피치 상향",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2025.09 조치)",
+   "verified": true
+  },
+  {
+   "id": "uzbekistan",
+   "name": "우즈베키스탄",
+   "keywords": "Uzbekistan UZ",
+   "type": "country",
+   "group": "신흥국",
+   "category": "나라",
+   "intl": {
+    "sp": "BB",
+    "moodys": "Ba2",
+    "fitch": "BB"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.05",
+     "agency": "S&P",
+     "change": "BB- 전망 긍정적"
+    },
+    {
+     "date": "2025.06",
+     "agency": "Fitch",
+     "change": "BB-→BB 상향"
+    },
+    {
+     "date": "2025.11",
+     "agency": "S&P",
+     "change": "BB-→BB 상향"
+    }
+   ],
+   "memo": "2025년 S&P·피치 상향",
+   "source": "TradingEconomics(S&P·무디스, 2026.10 조회); 위키 피치 표(2025.06 조치)",
+   "verified": true
+  },
+  {
+   "id": "kepco",
+   "name": "한국전력공사",
+   "keywords": "KEPCO 한전 Korea Electric Power KORELE",
+   "type": "company",
+   "group": "공기업",
+   "category": "공기업",
+   "intl": {
+    "sp": "AA",
+    "moodys": "Aa2",
+    "fitch": "AA-"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": null,
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "국가신용등급과 동일 수준(2026.07 기준). Moody's 독자신용도 baa3(2023)",
+   "source": "MNI 2025.02(Aa2/AA/AA-); 다음/뉴스 2026.07(Aa2·AA); Cbonds S&P 2024.10·Fitch 2024.06 확인",
+   "verified": true
+  },
+  {
+   "id": "khnp",
+   "name": "한국수력원자력",
+   "keywords": "KHNP 한수원 Korea Hydro Nuclear Power KOHNPW",
+   "type": "company",
+   "group": "공기업",
+   "category": "공기업",
+   "intl": {
+    "sp": "AA",
+    "moodys": "Aa2",
+    "fitch": "AA-"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "2026.03 기준 Moody's·S&P 등급만 확인, Fitch 미확인",
+   "source": "MNI 2026.03.24",
+   "verified": true
+  },
+  {
+   "id": "kowepo",
+   "name": "한국서부발전",
+   "keywords": "KOWEPO 서부발전 Korea Western Power",
+   "type": "company",
+   "group": "공기업",
+   "category": "공기업",
+   "intl": {
+    "sp": "AA",
+    "moodys": "Aa2",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": {
+    "nice": "AAA",
+    "kis": "AAA",
+    "kr": "AAA"
+   },
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2026.09",
+     "agency": "S&P",
+     "change": "AA(안정적) 확인"
+    }
+   ],
+   "memo": "한전 100% 자회사. 2027.10 발전 5사 통합(가칭 한국발전) 추진 중이며, S&P는 통합 후에도 신용도 영향이 크지 않다고 봄(2026.09). 국내 3사 회사채 AAA급(보도 기준). 무디스 Aa2는 2019 달러채 부여 기준",
+   "source": "파이낸셜뉴스(2026.09.09, S&P), 이투데이(2019.07, 무디스), 파이낸셜뉴스(2026.09.07, 국내 AAA)",
+   "verified": true
+  },
+  {
+   "id": "koen",
+   "name": "한국남동발전",
+   "keywords": "KOEN KOSEP 남동발전 Korea South-East Power",
+   "type": "company",
+   "group": "공기업",
+   "category": "공기업",
+   "intl": {
+    "sp": "AA",
+    "moodys": "Aa2",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": {
+    "nice": "AAA",
+    "kis": "AAA",
+    "kr": "AAA"
+   },
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.12",
+     "agency": "Moody's",
+     "change": "Aa2 재확인(안정적)"
+    },
+    {
+     "date": "2026.09",
+     "agency": "S&P",
+     "change": "AA(안정적) 확인"
+    }
+   ],
+   "memo": "한전 100% 자회사. 2027.10 발전 5사 통합(가칭 한국발전) 추진 중이며, S&P는 통합 후에도 신용도 영향이 크지 않다고 봄(2026.09). 국내 3사 회사채 AAA급(보도 기준)",
+   "source": "파이낸셜뉴스(2026.09.09, S&P), Cbonds(2025.12.12, 무디스), 파이낸셜뉴스(2026.09.07, 국내 AAA)",
+   "verified": true
+  },
+  {
+   "id": "komipo",
+   "name": "한국중부발전",
+   "keywords": "KOMIPO 중부발전 Korea Midland Power",
+   "type": "company",
+   "group": "공기업",
+   "category": "공기업",
+   "intl": {
+    "sp": "AA",
+    "moodys": "Aa2",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": {
+    "nice": "AAA",
+    "kis": "AAA",
+    "kr": "AAA"
+   },
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2024.02",
+     "agency": "Moody's",
+     "change": "Aa2 재확인(안정적)"
+    },
+    {
+     "date": "2026.09",
+     "agency": "S&P",
+     "change": "AA(안정적) 확인"
+    }
+   ],
+   "memo": "한전 100% 자회사. 2027.10 발전 5사 통합(가칭 한국발전) 추진 중이며, S&P는 통합 후에도 신용도 영향이 크지 않다고 봄(2026.09). 국내 3사 회사채 AAA급(보도 기준)",
+   "source": "파이낸셜뉴스(2026.09.09, S&P), Cbonds(2024.02.02, 무디스), 파이낸셜뉴스(2026.09.07, 국내 AAA)",
+   "verified": true
+  },
+  {
+   "id": "kospo",
+   "name": "한국남부발전",
+   "keywords": "KOSPO 남부발전 Korea Southern Power",
+   "type": "company",
+   "group": "공기업",
+   "category": "공기업",
+   "intl": {
+    "sp": null,
+    "moodys": "Aa2",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": {
+    "nice": "AAA",
+    "kis": "AAA",
+    "kr": "AAA"
+   },
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2024.02",
+     "agency": "Moody's",
+     "change": "Aa2 재확인(안정적)"
+    }
+   ],
+   "memo": "한전 100% 자회사. 2027.10 발전 5사 통합(가칭 한국발전) 추진 중이며, S&P는 통합 후에도 신용도 영향이 크지 않다고 봄(2026.09). 국내 3사 회사채 AAA급(보도 기준). S&P는 무등급(2026.09). 2026.09 3억달러 기후전환채권 발행",
+   "source": "Cbonds(2024.02, 무디스), 파이낸셜뉴스(2026.09.09, S&P 무등급), 데일리한국(2026.09.16)",
+   "verified": true
+  },
+  {
+   "id": "ewp",
+   "name": "한국동서발전",
+   "keywords": "EWP 동서발전 Korea East-West Power",
+   "type": "company",
+   "group": "공기업",
+   "category": "공기업",
+   "intl": {
+    "sp": "AA",
+    "moodys": "Aa2",
+    "fitch": "AA-"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": {
+    "nice": "AAA",
+    "kis": "AAA",
+    "kr": "AAA"
+   },
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2026.09",
+     "agency": "S&P",
+     "change": "AA(안정적) 확인"
+    }
+   ],
+   "memo": "한전 100% 자회사. 2027.10 발전 5사 통합(가칭 한국발전) 추진 중이며, S&P는 통합 후에도 신용도 영향이 크지 않다고 봄(2026.09). 국내 3사 회사채 AAA급(보도 기준)",
+   "source": "파이낸셜뉴스(2026.09.09, S&P), MNI(2025.10, 무디스·피치), 파이낸셜뉴스(2026.09.07, 국내 AAA)",
+   "verified": true
+  },
+  {
+   "id": "kogas",
+   "name": "한국가스공사",
+   "keywords": "KOGAS 가스공사 Korea Gas KORGAS",
+   "type": "company",
+   "group": "공기업",
+   "category": "공기업",
+   "intl": {
+    "sp": "AA",
+    "moodys": "Aa2",
+    "fitch": "AA-"
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.04",
+     "agency": "Fitch",
+     "change": "AA- 유지(안정적)"
+    }
+   ],
+   "memo": "Fitch 2025.04 AA- 확인(국가등급과 동일시)",
+   "source": "MNI 2025.04.09(Fitch affirm)",
+   "verified": true
+  },
+  {
+   "id": "lh",
+   "name": "한국토지주택공사",
+   "keywords": "LH 토지주택공사 Korea Land Housing",
+   "type": "company",
+   "group": "공기업",
+   "category": "공기업",
+   "intl": {
+    "sp": "AA",
+    "moodys": "Aa2",
+    "fitch": "AA-"
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "국가신용등급과 동일 수준(2026.10 기준)",
+   "source": "파이낸셜뉴스 2026.07.24; EBN 2026.10.23",
+   "verified": true
+  },
+  {
+   "id": "knoc",
+   "name": "한국석유공사",
+   "keywords": "KNOC 석유공사 Korea National Oil KOROIL",
+   "type": "company",
+   "group": "공기업",
+   "category": "공기업",
+   "intl": {
+    "sp": "AA",
+    "moodys": "Aa2",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2026.03",
+     "agency": "Moody's",
+     "change": "달러채(GMTN) Aa2 부여, 전망 안정적"
+    }
+   ],
+   "memo": "Fitch 미평가(NR). Moody's 독자신용도 b1(2026.03)",
+   "source": "이투데이 2026.03.18; MNI 2026.03.24",
+   "verified": true
+  },
+  {
+   "id": "kdb",
+   "name": "한국산업은행",
+   "keywords": "KDB 산업은행 Korea Development Bank",
+   "type": "company",
+   "group": "공기업",
+   "category": "공기업",
+   "intl": {
+    "sp": "AA",
+    "moodys": "Aa2",
+    "fitch": "AA-"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "국가신용등급과 동일(2025.12 기준)",
+   "source": "KDB IR 자료 2025.12; MNI 2026.03",
+   "verified": true
+  },
+  {
+   "id": "kexim",
+   "name": "한국수출입은행",
+   "keywords": "KEXIM 수출입은행 수은 Export-Import Bank of Korea EIBKOR",
+   "type": "company",
+   "group": "공기업",
+   "category": "공기업",
+   "intl": {
+    "sp": "AA",
+    "moodys": "Aa2",
+    "fitch": "AA-"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "국가신용등급과 동일 수준(2026.07 기준)",
+   "source": "MNI 2026.03.24; 아시아경제 2026.07.30",
+   "verified": true
+  },
+  {
+   "id": "khfc",
+   "name": "한국주택금융공사",
+   "keywords": "KHFC 주택금융공사 HF Korea Housing Finance",
+   "type": "company",
+   "group": "공기업",
+   "category": "공기업",
+   "intl": {
+    "sp": "AA",
+    "moodys": "Aa2",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "Fitch 미평가(NR), 2026.01 기준",
+   "source": "MNI 2026.01.09·2026.03.24",
+   "verified": true
+  },
+  {
+   "id": "hyundai",
+   "name": "현대자동차",
+   "keywords": "Hyundai Motor",
+   "type": "company",
+   "group": "코스피",
+   "category": "국내 기업",
+   "intl": {
+    "sp": "A-",
+    "moodys": "A3",
+    "fitch": "A-"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": {
+    "nice": "AAA",
+    "kis": "AAA",
+    "kr": "AAA"
+   },
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2024.02",
+     "agency": "Moody's",
+     "change": "Baa1→A3, 전망 안정적"
+    },
+    {
+     "date": "2024.02",
+     "agency": "Fitch",
+     "change": "BBB+→A-, 전망 안정적"
+    },
+    {
+     "date": "2024.04",
+     "agency": "NICE",
+     "change": "AAA 획득"
+    },
+    {
+     "date": "2024.08",
+     "agency": "S&P",
+     "change": "BBB+→A-, 전망 안정적"
+    },
+    {
+     "date": "2024.09",
+     "agency": "한국신용평가",
+     "change": "AA+→AAA"
+    },
+    {
+     "date": "2024.11",
+     "agency": "한국기업평가",
+     "change": "AA+→AAA"
+    },
+    {
+     "date": "2025.11",
+     "agency": "Fitch",
+     "change": "A- 유지, 전망 안정적"
+    }
+   ],
+   "memo": "2025.11 기준. 국제 3사 모두 A등급, 국내 3사 AAA",
+   "source": "이투데이(2024.08.22), 현대차 보도자료(2024.02), 파이낸셜뉴스(2025.11.05), 디지털타임스(2024.11.03)",
+   "verified": true
+  },
+  {
+   "id": "kia",
+   "name": "기아",
+   "keywords": "Kia",
+   "type": "company",
+   "group": "코스피",
+   "category": "국내 기업",
+   "intl": {
+    "sp": "A-",
+    "moodys": "A3",
+    "fitch": "A-"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": {
+    "nice": "AAA",
+    "kis": "AAA",
+    "kr": "AAA"
+   },
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2024.02",
+     "agency": "Moody's",
+     "change": "Baa1→A3, 전망 안정적"
+    },
+    {
+     "date": "2024.02",
+     "agency": "Fitch",
+     "change": "BBB+→A-, 전망 안정적"
+    },
+    {
+     "date": "2024.08",
+     "agency": "S&P",
+     "change": "BBB+→A-, 전망 안정적"
+    },
+    {
+     "date": "2024.09",
+     "agency": "한국신용평가",
+     "change": "AA+→AAA"
+    },
+    {
+     "date": "2024.11",
+     "agency": "NICE",
+     "change": "AA+→AAA"
+    },
+    {
+     "date": "2024.11",
+     "agency": "한국기업평가",
+     "change": "AA+→AAA"
+    }
+   ],
+   "memo": "2024.11 기준(2025~2026년 변동 미확인). 국제 3사 A등급, 국내 3사 AAA",
+   "source": "이투데이(2024.08.22), 현대차그룹 보도자료(2024.02·09), 딜사이트(2024.11), 디지털타임스(2024.11.03)",
+   "verified": true
+  },
+  {
+   "id": "posco-2",
+   "name": "POSCO홀딩스",
+   "keywords": "POSCO Holdings",
+   "type": "company",
+   "group": "코스피",
+   "category": "국내 기업",
+   "intl": {
+    "sp": "A-",
+    "moodys": "Baa1",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "부정적",
+    "moodys": "부정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.03",
+     "agency": "S&P",
+     "change": "A- 유지, 전망 안정적→부정적"
+    },
+    {
+     "date": "2026.03",
+     "agency": "Moody's",
+     "change": "Baa1, 전망 부정적(보도 기준)"
+    }
+   ],
+   "memo": "2026.04 기준. 국제 2사 모두 전망 부정적. 국내 등급·피치 미확인",
+   "source": "S&P 발표 보도(2025.03.07), 다음 보도(2026.04.03)",
+   "verified": true
+  },
+  {
+   "id": "lg-2",
+   "name": "LG화학",
+   "keywords": "LG Chem",
+   "type": "company",
+   "group": "코스피",
+   "category": "국내 기업",
+   "intl": {
+    "sp": null,
+    "moodys": "Baa2",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": {
+    "nice": null,
+    "kis": null,
+    "kr": "AA"
+   },
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2024.05",
+     "agency": "S&P",
+     "change": "BBB+ 유지, 전망 안정적→부정적"
+    },
+    {
+     "date": "2024.12",
+     "agency": "Moody's",
+     "change": "A3→Baa1"
+    },
+    {
+     "date": "2025.11",
+     "agency": "Moody's",
+     "change": "Baa1→Baa2"
+    },
+    {
+     "date": "2026.06",
+     "agency": "한국기업평가",
+     "change": "AA+→AA"
+    }
+   ],
+   "memo": "2026.06 기준. 무디스 1년 새 2단계 강등, 한기평 AA로 하향. S&P 현재 등급 미확인",
+   "source": "SBS Biz(2025.11.17), 뉴데일리(2024.12.13), 한국경제(2026.07.01), 머니투데이(2026.06.23)",
+   "verified": true
+  },
+  {
+   "id": "lg-3",
+   "name": "LG에너지솔루션",
+   "keywords": "LG Energy Solution LGES",
+   "type": "company",
+   "group": "코스피",
+   "category": "국내 기업",
+   "intl": {
+    "sp": "BBB",
+    "moodys": "Baa2",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": {
+    "nice": "AA",
+    "kis": "AA",
+    "kr": "AA"
+   },
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2024.05",
+     "agency": "S&P",
+     "change": "BBB+ 유지, 전망 안정적→부정적"
+    },
+    {
+     "date": "2024.12",
+     "agency": "Moody's",
+     "change": "Baa1 유지, 전망 안정적→부정적"
+    },
+    {
+     "date": "2025.11",
+     "agency": "Moody's",
+     "change": "Baa1→Baa2"
+    }
+   ],
+   "memo": "2026.02 기준. 국내 3사 AA(안정적). 무디스 전망은 출처 간 상충(IR 부정적/보도 안정적)",
+   "source": "LG에너지솔루션 IR(모바일), LG 보도자료(2026.02.20), SBS Biz(2025.11.17)",
+   "verified": true
+  },
+  {
+   "id": "sk-2",
+   "name": "SK이노베이션",
+   "keywords": "SK Innovation",
+   "type": "company",
+   "group": "코스피",
+   "category": "국내 기업",
+   "intl": {
+    "sp": "BBB-",
+    "moodys": "Ba1",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "부정적",
+    "moodys": "부정적",
+    "fitch": null
+   },
+   "domestic": {
+    "nice": "AA",
+    "kis": "AA",
+    "kr": "AA"
+   },
+   "shortTerm": null,
+   "history": [],
+   "memo": "2025.08 기준. 무디스 투기등급(Ba1), S&P BBB-. 국내 AA(안정적). 2026년 변동 미확인",
+   "source": "뉴스토마토 IB토마토(2025.08.29)",
+   "verified": true
+  },
+  {
+   "id": "sk-3",
+   "name": "SK텔레콤",
+   "keywords": "SK Telecom SKT",
+   "type": "company",
+   "group": "코스피",
+   "category": "국내 기업",
+   "intl": {
+    "sp": "A-",
+    "moodys": null,
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": {
+    "nice": "AAA",
+    "kis": null,
+    "kr": null
+   },
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2024.02",
+     "agency": "S&P",
+     "change": "A- 유지, 전망 안정적"
+    }
+   ],
+   "memo": "2025.08 기준. 유심 해킹 후에도 NICE AAA(안정적) 유지. 무디스·피치 2024년 이후 자료 미확인",
+   "source": "Cbonds(S&P, 2024.02.27), SBS Biz(NICE, 2025.08.29)",
+   "verified": true
+  },
+  {
+   "id": "kt",
+   "name": "KT",
+   "keywords": "KT Corp",
+   "type": "company",
+   "group": "코스피",
+   "category": "국내 기업",
+   "intl": {
+    "sp": "A",
+    "moodys": "A3",
+    "fitch": "A-"
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": {
+    "nice": "AAA",
+    "kis": "AAA",
+    "kr": "AAA"
+   },
+   "shortTerm": null,
+   "history": [],
+   "memo": "2026.07 달러채 발행 기준. 국내 AAA(안정적). 국제 전망 미확인",
+   "source": "파이낸셜뉴스(2026.07.07), 머니투데이(2026.02.24)",
+   "verified": true
+  },
+  {
+   "id": "ecopro",
+   "name": "에코프로",
+   "keywords": "EcoPro",
+   "type": "company",
+   "group": "코스닥",
+   "category": "국내 기업",
+   "intl": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": {
+    "nice": "A-",
+    "kis": null,
+    "kr": null
+   },
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2026.06",
+     "agency": "NICE",
+     "change": "A→A-"
+    }
+   ],
+   "memo": "2026.06 기준. NICE 정기평가에서 A→A- 하향. 다른 평가사 미확인",
+   "source": "한국경제(2026.07.01)",
+   "verified": true
+  },
+  {
+   "id": "nvidia",
+   "name": "엔비디아",
+   "keywords": "nvidia nvda",
+   "type": "company",
+   "group": "나스닥",
+   "category": "미국",
+   "intl": {
+    "sp": "AA",
+    "moodys": "Aa1",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "긍정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.03",
+     "agency": "무디스",
+     "change": "Aa3→Aa2 상향(전망 긍정적)"
+    },
+    {
+     "date": "2026.06",
+     "agency": "S&P",
+     "change": "AA로 상향(전망 안정적)"
+    },
+    {
+     "date": "2026.08",
+     "agency": "무디스",
+     "change": "Aa1 재확인(전망 긍정적)"
+    }
+   ],
+   "memo": "AI 수요로 연속 상향. S&P AA, 무디스 Aa1 (2026.08 기준)",
+   "source": "Newsquawk(2026.06.11), PrimeXBT(2026.08.18), TradingKey(2025.03)",
+   "verified": true
+  },
+  {
+   "id": "amazon",
+   "name": "아마존",
+   "keywords": "amazon amzn",
+   "type": "company",
+   "group": "나스닥",
+   "category": "미국",
+   "intl": {
+    "sp": "AA",
+    "moodys": "A1",
+    "fitch": "AA-"
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2026.02",
+     "agency": "무디스",
+     "change": "A1 재확인, 전망 긍정적→안정적"
+    }
+   ],
+   "memo": "AI 설비투자 확대 속 등급 유지 (2026.03 기준)",
+   "source": "아마존 사채 발행서류 SEC FWP(2026.03.10), 무디스(2026.02)",
+   "verified": true
+  },
+  {
+   "id": "alphabet",
+   "name": "알파벳(구글)",
+   "keywords": "alphabet google googl goog",
+   "type": "company",
+   "group": "나스닥",
+   "category": "미국",
+   "intl": {
+    "sp": "AA+",
+    "moodys": "Aa2",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "S&P AA+, 무디스 Aa2 (2026.02 사채 발행 기준)",
+   "source": "StreetInsider(2026.02.10)",
+   "verified": true
+  },
+  {
+   "id": "meta",
+   "name": "메타",
+   "keywords": "meta facebook",
+   "type": "company",
+   "group": "나스닥",
+   "category": "미국",
+   "intl": {
+    "sp": "AA-",
+    "moodys": "Aa3",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2026.02",
+     "agency": "무디스",
+     "change": "Aa3 재확인, 전망 안정적"
+    }
+   ],
+   "memo": "S&P AA-, 무디스 Aa3 (2026.04 사채 발행 기준)",
+   "source": "메타 SEC FWP(2026.04.30), Teleborsa(2026.02.27)",
+   "verified": true
+  },
+  {
+   "id": "tesla",
+   "name": "테슬라",
+   "keywords": "tesla tsla",
+   "type": "company",
+   "group": "나스닥",
+   "category": "미국",
+   "intl": {
+    "sp": "BBB",
+    "moodys": "Baa3",
+    "fitch": "BBB"
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2026.09",
+     "agency": "피치",
+     "change": "신규 BBB(안정적) 부여"
+    }
+   ],
+   "memo": "투자등급 하단. 2026.09 피치 신규 BBB 부여",
+   "source": "eletric-vehicles.com(2026.09.23)",
+   "verified": true
+  },
+  {
+   "id": "broadcom",
+   "name": "브로드컴",
+   "keywords": "broadcom avgo",
+   "type": "company",
+   "group": "나스닥",
+   "category": "미국",
+   "intl": {
+    "sp": "A-",
+    "moodys": "A3",
+    "fitch": "A-"
+   },
+   "outlook": {
+    "sp": "긍정적",
+    "moodys": "긍정적",
+    "fitch": "긍정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.09",
+     "agency": "S&P",
+     "change": "BBB+→A- 상향(긍정적)"
+    },
+    {
+     "date": "2026.03",
+     "agency": "피치",
+     "change": "BBB+→A- 상향(긍정적)"
+    }
+   ],
+   "memo": "3사 모두 A급, 전망 긍정적 (2026.03 기준)",
+   "source": "브로드컴 SEC FWP(2026.01.06), Newsquawk(2026.03.20), Börsvärlden(2025.09)",
+   "verified": true
+  },
+  {
+   "id": "netflix",
+   "name": "넷플릭스",
+   "keywords": "netflix nflx",
+   "type": "company",
+   "group": "나스닥",
+   "category": "미국",
+   "intl": {
+    "sp": "A",
+    "moodys": "A3",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.05",
+     "agency": "무디스",
+     "change": "Baa1→A3 상향"
+    },
+    {
+     "date": "2025.12",
+     "agency": "무디스",
+     "change": "전망 긍정적→안정적(WBD 인수 불확실성)"
+    }
+   ],
+   "memo": "WBD 인수 무산(2026) 후 A급 유지 (2026.08 기준)",
+   "source": "LegalClarity(2026.08.13)",
+   "verified": true
+  },
+  {
+   "id": "intel",
+   "name": "인텔",
+   "keywords": "intel intc",
+   "type": "company",
+   "group": "나스닥",
+   "category": "미국",
+   "intl": {
+    "sp": "BBB",
+    "moodys": "Baa2",
+    "fitch": "BBB"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "부정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2024.12",
+     "agency": "S&P",
+     "change": "BBB+→BBB 하향"
+    },
+    {
+     "date": "2025.08",
+     "agency": "피치",
+     "change": "BBB+→BBB 하향(부정적)"
+    },
+    {
+     "date": "2025.08",
+     "agency": "무디스",
+     "change": "Baa1→Baa2 하향(안정적)"
+    }
+   ],
+   "memo": "2024~2025 연속 하향. 투기등급과 2단계 차 (2026.04 기준)",
+   "source": "인텔 SEC FWP(2026.04.27), Investing.com(2025.08), CNBC(2025.08)",
+   "verified": true
+  },
+  {
+   "id": "amd",
+   "name": "AMD",
+   "keywords": "amd advanced micro devices",
+   "type": "company",
+   "group": "나스닥",
+   "category": "미국",
+   "intl": {
+    "sp": "A",
+    "moodys": "A1",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.01",
+     "agency": "S&P",
+     "change": "A-→A 상향(안정적)"
+    }
+   ],
+   "memo": "S&P A, 무디스 A1 (2026.08 사채 발행 기준)",
+   "source": "AMD SEC FWP(2026.08.13), InsiderMonkey(2025.01)",
+   "verified": true
+  },
+  {
+   "id": "qualcomm",
+   "name": "퀄컴",
+   "keywords": "qualcomm qcom",
+   "type": "company",
+   "group": "나스닥",
+   "category": "미국",
+   "intl": {
+    "sp": "A",
+    "moodys": "A2",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "S&P A, 무디스 A2 (2025.05 사채 발행 기준)",
+   "source": "퀄컴 SEC FWP(2025.05.19)",
+   "verified": true
+  },
+  {
+   "id": "costco",
+   "name": "코스트코",
+   "keywords": "costco cost",
+   "type": "company",
+   "group": "나스닥",
+   "category": "미국",
+   "intl": {
+    "sp": null,
+    "moodys": null,
+    "fitch": "AA"
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.11",
+     "agency": "피치",
+     "change": "AA(안정적) 부여"
+    }
+   ],
+   "memo": "피치 AA (2025.11 기준). S&P·무디스는 미확인",
+   "source": "ts2.tech(2025.11 피치 등급 보도)",
+   "verified": true
+  },
+  {
+   "id": "pepsico",
+   "name": "펩시코",
+   "keywords": "pepsico pep",
+   "type": "company",
+   "group": "나스닥",
+   "category": "미국",
+   "intl": {
+    "sp": "A+",
+    "moodys": "A1",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "S&P A+, 무디스 A1 (2026.10 사채 발행 기준)",
+   "source": "펩시코 SEC FWP(2026.10.09)",
+   "verified": true
+  },
+  {
+   "id": "cisco",
+   "name": "시스코",
+   "keywords": "cisco csco",
+   "type": "company",
+   "group": "나스닥",
+   "category": "미국",
+   "intl": {
+    "sp": "AA-",
+    "moodys": "A1",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "S&P AA-, 무디스 A1 (2025.02 사채 발행 기준)",
+   "source": "시스코 SEC FWP(2025.02.19)",
+   "verified": true
+  },
+  {
+   "id": "adobe",
+   "name": "어도비",
+   "keywords": "adobe adbe",
+   "type": "company",
+   "group": "나스닥",
+   "category": "미국",
+   "intl": {
+    "sp": "A+",
+    "moodys": "A1",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "S&P A+, 무디스 A1 (2025.01 사채 발행 기준)",
+   "source": "어도비 SEC FWP(2025.01.14)",
+   "verified": true
+  },
+  {
+   "id": "oracle",
+   "name": "오라클",
+   "keywords": "oracle orcl",
+   "type": "company",
+   "group": "미국",
+   "category": "미국",
+   "intl": {
+    "sp": "BBB-",
+    "moodys": "Baa2",
+    "fitch": "BBB"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "부정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.07",
+     "agency": "S&P",
+     "change": "전망 부정적으로 변경"
+    },
+    {
+     "date": "2026.02",
+     "agency": "무디스",
+     "change": "Baa2 재확인, 전망 부정적 유지"
+    },
+    {
+     "date": "2026.02",
+     "agency": "피치",
+     "change": "BBB 재확인(안정적)"
+    },
+    {
+     "date": "2026.07",
+     "agency": "S&P",
+     "change": "BBB→BBB- 하향(안정적)"
+    }
+   ],
+   "memo": "AI 데이터센터 투자로 투자등급 최하단(S&P BBB-) (2026.07 기준)",
+   "source": "PPC Land/Motley Fool(2026.07), Newsquawk(2026.02.02), Yahoo(2026.02)",
+   "verified": true
+  },
+  {
+   "id": "jpmorgan",
+   "name": "JP모건",
+   "keywords": "jpmorgan chase jpm",
+   "type": "company",
+   "group": "미국",
+   "category": "미국",
+   "intl": {
+    "sp": "A",
+    "moodys": "A1",
+    "fitch": "AA-"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.11",
+     "agency": "무디스",
+     "change": "은행 예금등급 Aa2→Aa1 상향"
+    }
+   ],
+   "memo": "지주사 선순위 기준 (2025.12.31 기준)",
+   "source": "JP모건 IR Fixed Income 자료(2025.12.31 기준)",
+   "verified": true
+  },
+  {
+   "id": "walmart",
+   "name": "월마트",
+   "keywords": "walmart wmt",
+   "type": "company",
+   "group": "미국",
+   "category": "미국",
+   "intl": {
+    "sp": "AA",
+    "moodys": "Aa2",
+    "fitch": "AA"
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "3사 AA급 (2026.04 사채 발행 기준)",
+   "source": "월마트 SEC FWP(2026.04.27)",
+   "verified": true
+  },
+  {
+   "id": "micron",
+   "name": "마이크론",
+   "keywords": "micron mu",
+   "type": "company",
+   "group": "나스닥",
+   "category": "미국",
+   "intl": {
+    "sp": "BBB",
+    "moodys": "Baa1",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "긍정적",
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2026.02",
+     "agency": "S&P",
+     "change": "BBB-→BBB 상향(긍정적)"
+    },
+    {
+     "date": "2026.07",
+     "agency": "무디스",
+     "change": "Baa2→Baa1 상향(안정적)"
+    }
+   ],
+   "memo": "AI 메모리 호황으로 2026년 연속 상향",
+   "source": "ts2.tech(2026.02.27), Websim(2026.07.31)",
+   "verified": true
+  },
+  {
+   "id": "starbucks",
+   "name": "스타벅스",
+   "keywords": "starbucks sbux",
+   "type": "company",
+   "group": "나스닥",
+   "category": "미국",
+   "intl": {
+    "sp": "BBB+",
+    "moodys": "Baa1",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "부정적",
+    "moodys": "부정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "실적 부진으로 전망 부정적 (2025.05 기준, 이후 미확인)",
+   "source": "스타벅스 사채 발행서류(2025.05.06), investmentgrade.com",
+   "verified": true
+  },
+  {
+   "id": "tencent",
+   "name": "텐센트",
+   "keywords": "tencent 0700",
+   "type": "company",
+   "group": "항셍",
+   "category": "홍콩·중국",
+   "intl": {
+    "sp": "A+",
+    "moodys": "A1",
+    "fitch": "A"
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2026.10",
+     "agency": "피치",
+     "change": "A 재확인(안정적)"
+    }
+   ],
+   "memo": "피치는 중국 국가등급(A) 상한 적용 (2026.10 기준)",
+   "source": "Reuters(2026.06.08), Foreks(2026.10.14 피치)",
+   "verified": true
+  },
+  {
+   "id": "alibaba",
+   "name": "알리바바",
+   "keywords": "alibaba baba 9988",
+   "type": "company",
+   "group": "항셍",
+   "category": "홍콩·중국",
+   "intl": {
+    "sp": "A+",
+    "moodys": "A1",
+    "fitch": "A"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2026.04",
+     "agency": "무디스",
+     "change": "A1 재확인, 전망 부정적→안정적"
+    },
+    {
+     "date": "2026.10",
+     "agency": "피치",
+     "change": "A 재확인(안정적)"
+    }
+   ],
+   "memo": "3사 A급, 전망 안정적 (2026.10 기준)",
+   "source": "Cbonds(S&P 2025.11, 무디스 2026.04), Newsquawk(피치 2026.10.14)",
+   "verified": true
+  },
+  {
+   "id": "hsbc",
+   "name": "HSBC",
+   "keywords": "hsbc 0005",
+   "type": "company",
+   "group": "항셍",
+   "category": "홍콩·중국",
+   "intl": {
+    "sp": "A-",
+    "moodys": "A3",
+    "fitch": "A+"
+   },
+   "outlook": {
+    "sp": "긍정적",
+    "moodys": "긍정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "HSBC홀딩스 선순위 기준 (2026.09.22 기준)",
+   "source": "HSBC IR 신용등급 페이지(2026.09.22)",
+   "verified": true
+  },
+  {
+   "id": "meituan",
+   "name": "메이퇀",
+   "keywords": "meituan 3690",
+   "type": "company",
+   "group": "항셍",
+   "category": "홍콩·중국",
+   "intl": {
+    "sp": "BBB+",
+    "moodys": null,
+    "fitch": "BBB+"
+   },
+   "outlook": {
+    "sp": "부정적",
+    "moodys": null,
+    "fitch": "부정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2026.04",
+     "agency": "피치",
+     "change": "BBB+ 재확인, 전망 안정적→부정적"
+    }
+   ],
+   "memo": "배달 보조금 경쟁으로 S&P A-→BBB+ 하향, 전망 부정적",
+   "source": "JPM HK Warrants(2026.04.09 피치), BondBlox(S&P)",
+   "verified": true
+  },
+  {
+   "id": "xiaomi",
+   "name": "샤오미",
+   "keywords": "xiaomi 1810",
+   "type": "company",
+   "group": "항셍",
+   "category": "홍콩·중국",
+   "intl": {
+    "sp": "BBB",
+    "moodys": "Baa1",
+    "fitch": "BBB+"
+   },
+   "outlook": {
+    "sp": "긍정적",
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.04",
+     "agency": "S&P",
+     "change": "BBB-→BBB 상향"
+    },
+    {
+     "date": "2025.04",
+     "agency": "피치",
+     "change": "전망 긍정적으로 변경"
+    },
+    {
+     "date": "2025.08",
+     "agency": "무디스",
+     "change": "Baa2→Baa1 상향(안정적)"
+    },
+    {
+     "date": "2025.12",
+     "agency": "피치",
+     "change": "BBB+로 상향"
+    },
+    {
+     "date": "2025.12",
+     "agency": "S&P",
+     "change": "전망 긍정적으로 변경"
+    }
+   ],
+   "memo": "2025년 3사 모두 상향·전망 개선",
+   "source": "Dünya(2025.04), Finanztrends(2025.08), Börse Express(2025.12)",
+   "verified": true
+  },
+  {
+   "id": "kb",
+   "name": "KB금융지주",
+   "keywords": "KB Financial Group KBFG KB금융",
+   "type": "company",
+   "group": "국내 금융",
+   "category": "국내 기업",
+   "intl": {
+    "sp": "A",
+    "moodys": "A1",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": {
+    "nice": "AAA",
+    "kis": "AAA",
+    "kr": "AAA"
+   },
+   "shortTerm": null,
+   "history": [],
+   "memo": "지주사 기준, 국내 등급은 무보증사채(2026.10 IR 조회 기준)",
+   "source": "KB금융 IR 신용등급 페이지(2026.10 조회)",
+   "verified": true
+  },
+  {
+   "id": "kb-2",
+   "name": "KB국민은행",
+   "keywords": "KB Kookmin Bank 국민은행",
+   "type": "company",
+   "group": "국내 금융",
+   "category": "국내 기업",
+   "intl": {
+    "sp": "A+",
+    "moodys": "Aa3",
+    "fitch": "A"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": {
+    "nice": "AAA",
+    "kis": "AAA",
+    "kr": "AAA"
+   },
+   "shortTerm": null,
+   "history": [],
+   "memo": "은행 장기 등급, 국내 등급은 무보증사채(2026.10 IR 조회 기준)",
+   "source": "KB금융 IR 신용등급 페이지(2026.10 조회)",
+   "verified": true
+  },
+  {
+   "id": "hana",
+   "name": "하나은행",
+   "keywords": "Hana Bank KEB Hana 하나",
+   "type": "company",
+   "group": "국내 금융",
+   "category": "국내 기업",
+   "intl": {
+    "sp": "A+",
+    "moodys": "Aa3",
+    "fitch": "A"
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2024.06",
+     "agency": "Fitch",
+     "change": "독자신용등급 a-→a 상향(IDR A 유지)"
+    }
+   ],
+   "memo": "등급은 2025.10 기준, 전망은 2024.06 보도 기준. 하나금융지주 등급은 확인 안 됨",
+   "source": "MNI Markets(2025.10.14), 스마트투데이(2024.06.14)",
+   "verified": true
+  },
+  {
+   "id": "woori",
+   "name": "우리은행",
+   "keywords": "Woori Bank 우리",
+   "type": "company",
+   "group": "국내 금융",
+   "category": "국내 기업",
+   "intl": {
+    "sp": "A+",
+    "moodys": "A1",
+    "fitch": "A"
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.08",
+     "agency": "Moody's",
+     "change": "A1 유지(affirm)"
+    },
+    {
+     "date": "2026.09",
+     "agency": "Fitch",
+     "change": "독자신용등급 a-→a 상향, IDR A 유지(보도 시점 기준)"
+    }
+   ],
+   "memo": "Fitch는 2026.09, Moody's·S&P는 2025.08 기준. 우리금융지주 등급은 확인 안 됨",
+   "source": "Korea Times(2026.09.07), MNI Markets(2025.08.20)",
+   "verified": true
+  },
+  {
+   "id": "nonghyup",
+   "name": "NH농협은행",
+   "keywords": "NongHyup Bank NH 농협은행",
+   "type": "company",
+   "group": "국내 금융",
+   "category": "국내 기업",
+   "intl": {
+    "sp": "A+",
+    "moodys": "Aa3",
+    "fitch": "A"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": null,
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "2025.07 달러채 발행 시 표기 등급 기준, 전망 미확인",
+   "source": "MNI Markets(2025.07.14); Cbonds(S&P 2025.02, Fitch 2024.11)",
+   "verified": true
+  },
+  {
+   "id": "naver",
+   "name": "NAVER",
+   "keywords": "NAVER Naver 네이버",
+   "type": "company",
+   "group": "코스피",
+   "category": "국내 기업",
+   "intl": {
+    "sp": "A-",
+    "moodys": "A3",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": {
+    "nice": null,
+    "kis": "AA+",
+    "kr": "AA+"
+   },
+   "shortTerm": null,
+   "history": [],
+   "memo": "해외 등급은 2026.04, 국내 등급(전망 안정적)은 2024.01 기준",
+   "source": "헤럴드경제(2026.04.14), 뉴스토마토 IB토마토(2024.01.15)",
+   "verified": true
+  },
+  {
+   "id": "korean",
+   "name": "대한항공",
+   "keywords": "Korean Air KAL 대한항공",
+   "type": "company",
+   "group": "코스피",
+   "category": "국내 기업",
+   "intl": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": {
+    "nice": "A",
+    "kis": null,
+    "kr": null
+   },
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2026.05",
+     "agency": "NICE신용평가",
+     "change": "전망 안정적→긍정적"
+    },
+    {
+     "date": "2026.05",
+     "agency": "한국신용평가",
+     "change": "전망 안정적→긍정적"
+    }
+   ],
+   "memo": "NICE A(긍정적). 한신평도 2026.05 전망을 긍정적으로 올렸으나 기사에 등급 수준 없음(2026.05 기준)",
+   "source": "딜사이트(2026.05.27), 아시아경제(2026.05.28)",
+   "verified": true
+  },
+  {
+   "id": "hanwha",
+   "name": "한화에어로스페이스",
+   "keywords": "Hanwha Aerospace 한화에어로",
+   "type": "company",
+   "group": "코스피",
+   "category": "국내 기업",
+   "intl": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": {
+    "nice": "AA",
+    "kis": null,
+    "kr": null
+   },
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.11",
+     "agency": "NICE신용평가",
+     "change": "AA-→AA 상향(전망 긍정적→안정적)"
+    }
+   ],
+   "memo": "NICE AA(안정적), 2025.11 기준. 한신평·한기평 등급 미확인",
+   "source": "아시아경제(2025.11.20), 헤럴드경제(2026.01.01)",
+   "verified": true
+  },
+  {
+   "id": "hd",
+   "name": "HD현대중공업",
+   "keywords": "HD Hyundai Heavy Industries HHI 현대중공업",
+   "type": "company",
+   "group": "코스피",
+   "category": "국내 기업",
+   "intl": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": {
+    "nice": "AA-",
+    "kis": "AA-",
+    "kr": "AA-"
+   },
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2026.06",
+     "agency": "신평 3사",
+     "change": "A+(긍정적)→AA-(안정적) 상향"
+    }
+   ],
+   "memo": "신평 3사 모두 AA-(안정적), 2026.06 기준",
+   "source": "딜사이트(2026.06.10)",
+   "verified": true
+  },
+  {
+   "id": "samsung-3",
+   "name": "삼성중공업",
+   "keywords": "Samsung Heavy Industries SHI 삼성중공업",
+   "type": "company",
+   "group": "코스피",
+   "category": "국내 기업",
+   "intl": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": {
+    "nice": "A-",
+    "kis": null,
+    "kr": "A-"
+   },
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2026.06",
+     "agency": "한국기업평가·NICE신용평가",
+     "change": "전망 안정적→긍정적"
+    }
+   ],
+   "memo": "한기평·NICE A-(긍정적), 2026.06 정기평가 기준. 한신평 미확인",
+   "source": "딜사이트(2026.06.10)",
+   "verified": true
+  },
+  {
+   "id": "lotte",
+   "name": "롯데케미칼",
+   "keywords": "Lotte Chemical 롯데케미칼",
+   "type": "company",
+   "group": "코스피",
+   "category": "국내 기업",
+   "intl": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": {
+    "nice": "AA-",
+    "kis": null,
+    "kr": null
+   },
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2026.06",
+     "agency": "한국신용평가",
+     "change": "전망 안정적→부정적"
+    },
+    {
+     "date": "2026.06",
+     "agency": "NICE신용평가",
+     "change": "전망 안정적→부정적"
+    },
+    {
+     "date": "2026.06",
+     "agency": "한국기업평가",
+     "change": "전망 부정적으로 변경"
+    }
+   ],
+   "memo": "NICE AA-(부정적). 한신평·한기평도 2026.06 전망 부정적이나 등급 수준 기사 미명시(2026.07 기준)",
+   "source": "파이낸셜뉴스(2026.07.15), 딜사이트(2026.06.29)",
+   "verified": true
+  },
+  {
+   "id": "lotte-2",
+   "name": "롯데쇼핑",
+   "keywords": "Lotte Shopping 롯데쇼핑",
+   "type": "company",
+   "group": "코스피",
+   "category": "국내 기업",
+   "intl": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": {
+    "nice": "AA-",
+    "kis": "AA-",
+    "kr": "AA-"
+   },
+   "shortTerm": null,
+   "history": [],
+   "memo": "2026.06 공모채 기준 신평 3사 AA-, 전망 미명시",
+   "source": "딜사이트(2026.06.29)",
+   "verified": true
+  },
+  {
+   "id": "cj",
+   "name": "CJ제일제당",
+   "keywords": "CJ CheilJedang CJ제일제당",
+   "type": "company",
+   "group": "코스피",
+   "category": "국내 기업",
+   "intl": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": {
+    "nice": "AA",
+    "kis": null,
+    "kr": "AA"
+   },
+   "shortTerm": null,
+   "history": [],
+   "memo": "NICE·한기평 AA(안정적), 2024.01 기준",
+   "source": "뉴스토마토 IB토마토(2024.01.11)",
+   "verified": true
+  },
+  {
+   "id": "samsung-4",
+   "name": "삼성물산",
+   "keywords": "Samsung C&T 삼성물산",
+   "type": "company",
+   "group": "코스피",
+   "category": "국내 기업",
+   "intl": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": {
+    "nice": "AA+",
+    "kis": null,
+    "kr": "AA+"
+   },
+   "shortTerm": null,
+   "history": [],
+   "memo": "NICE·한기평 AA+(안정적), 2024.09 기준",
+   "source": "딜사이트(2024.09.04)",
+   "verified": true
+  },
+  {
+   "id": "e",
+   "name": "이마트",
+   "keywords": "E-mart Emart 이마트",
+   "type": "company",
+   "group": "코스피",
+   "category": "국내 기업",
+   "intl": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": {
+    "nice": "AA-",
+    "kis": null,
+    "kr": "AA-"
+   },
+   "shortTerm": null,
+   "history": [],
+   "memo": "NICE·한기평 AA-, 2026.01 공모채 기준. 전망 미명시",
+   "source": "딜사이트(2026.01.21)",
+   "verified": true
+  },
+  {
+   "id": "hanwha-2",
+   "name": "한화솔루션",
+   "keywords": "Hanwha Solutions 한화솔루션",
+   "type": "company",
+   "group": "코스피",
+   "category": "국내 기업",
+   "intl": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": {
+    "nice": "AA-",
+    "kis": null,
+    "kr": "AA-"
+   },
+   "shortTerm": null,
+   "history": [],
+   "memo": "NICE·한기평 AA-(부정적), 2026.06 정기평가에서 유지",
+   "source": "뉴시스(2026.07.16)",
+   "verified": true
+  },
+  {
+   "id": "s",
+   "name": "S-Oil",
+   "keywords": "S-Oil SOil 에쓰오일",
+   "type": "company",
+   "group": "코스피",
+   "category": "국내 기업",
+   "intl": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": {
+    "nice": "AA+",
+    "kis": null,
+    "kr": "AA+"
+   },
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2024.08",
+     "agency": "한국기업평가",
+     "change": "AA(긍정적)→AA+(안정적) 상향"
+    },
+    {
+     "date": "2026.02",
+     "agency": "NICE신용평가",
+     "change": "AA→AA+ 상향"
+    }
+   ],
+   "memo": "NICE AA+(2026.02 상향), 한기평 AA+(안정적, 2024.08 상향). 해외 등급 미확인",
+   "source": "아시아경제(2026.02.09), 뉴스토마토 IB토마토(2024.10.24)",
+   "verified": true
+  },
+  {
+   "id": "doosan",
+   "name": "두산에너빌리티",
+   "keywords": "Doosan Enerbility 두산에너빌리티",
+   "type": "company",
+   "group": "코스피",
+   "category": "국내 기업",
+   "intl": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.12",
+     "agency": "NICE신용평가",
+     "change": "BBB+ 전망 안정적→긍정적"
+    },
+    {
+     "date": "2025.12",
+     "agency": "한국기업평가",
+     "change": "BBB+ 전망 긍정적으로 변경"
+    },
+    {
+     "date": "2026.06",
+     "agency": "평가사 미명시",
+     "change": "BBB+→A- 상향"
+    }
+   ],
+   "memo": "2026.06 BBB+(긍정적)→A-(안정적) 상향 보도(평가사 미명시). 2025.12 NICE·한기평 BBB+ 전망 긍정적",
+   "source": "파이낸셜뉴스(2026.06.29), 메트로신문(2025.12.24)",
+   "verified": true
+  },
+  {
+   "id": "hyundai-2",
+   "name": "현대건설",
+   "keywords": "Hyundai E&C Hyundai Engineering 현대건설",
+   "type": "company",
+   "group": "코스피",
+   "category": "국내 기업",
+   "intl": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "회사채 AA-(평가사 미명시, 2026.01 보도 기준)",
+   "source": "파이낸셜뉴스(2026.01.08), 딜사이트(2025.08.28)",
+   "verified": true
+  },
+  {
+   "id": "ecopro-2",
+   "name": "에코프로비엠",
+   "keywords": "EcoPro BM 에코프로비엠",
+   "type": "company",
+   "group": "코스닥",
+   "category": "국내 기업",
+   "intl": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": {
+    "nice": null,
+    "kis": null,
+    "kr": "A-"
+   },
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2024.12",
+     "agency": "한국기업평가",
+     "change": "전망 안정적→부정적"
+    },
+    {
+     "date": "2025.06",
+     "agency": "한국기업평가",
+     "change": "A→A- 하향"
+    }
+   ],
+   "memo": "한기평 A-(2025.06 하향), 2025.09 보도 기준. NICE 등급 미확인",
+   "source": "딜사이트(2025.09.11), 이투데이(2025.02.13)",
+   "verified": true
+  },
+  {
+   "id": "ibk",
+   "name": "IBK기업은행",
+   "keywords": "IBK Industrial Bank of Korea 중소기업은행 기업은행",
+   "type": "company",
+   "group": "공기업",
+   "category": "공기업",
+   "intl": {
+    "sp": null,
+    "moodys": "Aa2",
+    "fitch": "AA-"
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "Moody's 2025.03 확인, Fitch 2024.11 확인. S&P(AA-)는 2023.09 자료만 있어 미기재",
+   "source": "Cbonds(Moody's affirm 2025.03.06, Fitch affirm 2024.11.01)",
+   "verified": true
+  },
+  {
+   "id": "kec",
+   "name": "한국도로공사",
+   "keywords": "KEC Korea Expressway Corporation 도로공사",
+   "type": "company",
+   "group": "공기업",
+   "category": "공기업",
+   "intl": {
+    "sp": null,
+    "moodys": "Aa2",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2026.09",
+     "agency": "Moody's",
+     "change": "Aa2 유지, 독자신용도 baa2→baa3 하향"
+    }
+   ],
+   "memo": "Moody's 2026.09 기준. 독자신용도(BCA) baa3",
+   "source": "이투데이 2026.09.22",
+   "verified": true
+  },
+  {
+   "id": "k",
+   "name": "한국수자원공사",
+   "keywords": "K-water Korea Water Resources Corporation 수자원공사",
+   "type": "company",
+   "group": "공기업",
+   "category": "공기업",
+   "intl": {
+    "sp": "AA",
+    "moodys": "Aa2",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "S&P 2025.05 기준. Moody's Aa2는 K-water 2026 그린본드 보고서(2024.10 발행채 기준)",
+   "source": "Cbonds(S&P affirm 2025.05.29), K-water Annual Green Bond Report 2026",
+   "verified": true
+  },
+  {
+   "id": "ksfc",
+   "name": "한국증권금융",
+   "keywords": "KSFC Korea Securities Finance Corporation 증권금융",
+   "type": "company",
+   "group": "공기업",
+   "category": "공기업",
+   "intl": {
+    "sp": null,
+    "moodys": "Aa2",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2026.10",
+     "agency": "Moody's",
+     "change": "Aa2 (창립 후 첫 외화 글로벌본드)"
+    }
+   ],
+   "memo": "2026.10 첫 외화채(3억달러 3년) 발행 시 Moody's Aa2(국가신용등급과 동일)",
+   "source": "파이낸셜뉴스·헤럴드경제 2026.10.06",
+   "verified": true
+  },
+  {
+   "id": "kodit",
+   "name": "신용보증기금",
+   "keywords": "KODIT Korea Credit Guarantee Fund 신보",
+   "type": "company",
+   "group": "공기업",
+   "category": "공기업",
+   "intl": {
+    "sp": null,
+    "moodys": "Aa2",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "Moody's 2026.05 기준(국가신용등급과 동일). KODIT Global 2026-1 SPC 보증채도 Aa2",
+   "source": "이데일리 마켓인 2026.05.07",
+   "verified": true
+  },
+  {
+   "id": "korail",
+   "name": "한국철도공사",
+   "keywords": "KORAIL Korea Railroad Corporation 코레일 철도공사",
+   "type": "company",
+   "group": "공기업",
+   "category": "공기업",
+   "intl": {
+    "sp": null,
+    "moodys": "Aa3",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": "긍정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.12",
+     "agency": "Moody's",
+     "change": "Aa3 유지, 전망 안정적→긍정적 (SR 통합)"
+    }
+   ],
+   "memo": "Moody's 2025.12 기준. 독자신용도 b3. SR 통합 결정 반영",
+   "source": "이투데이 2025.12.13",
+   "verified": true
+  },
+  {
+   "id": "tsmc",
+   "name": "TSMC",
+   "keywords": "TSMC Taiwan Semiconductor TSM 2330 대만반도체",
+   "type": "company",
+   "group": "해외",
+   "category": "해외",
+   "intl": {
+    "sp": "AA-",
+    "moodys": "Aa2",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "긍정적",
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2026.10",
+     "agency": "Moody's",
+     "change": "Aa3→Aa2 상향, 전망 안정적"
+    }
+   ],
+   "memo": "2026.10 기준. S&P 전망은 TSMC IR(2026.10.05) 표기. Fitch는 IR에 없음",
+   "source": "TSMC IR 신용등급 페이지(2026.10), Newsquawk(2026.10.21), Boerse-Express(2026.07)",
+   "verified": true
+  },
+  {
+   "id": "toyota",
+   "name": "도요타",
+   "keywords": "Toyota Motor TM 7203",
+   "type": "company",
+   "group": "해외",
+   "category": "해외",
+   "intl": {
+    "sp": "A+",
+    "moodys": "A1",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.06",
+     "agency": "Moody's",
+     "change": "전망 긍정적→안정적"
+    }
+   ],
+   "memo": "S&P는 2025.09, Moody's는 2025.06 전망 변경 기준",
+   "source": "CRISIL 근거자료(2025.09, S&P A+/Stable), CreditSights 요약(2025.08), Toyota IR",
+   "verified": true
+  },
+  {
+   "id": "sony",
+   "name": "소니",
+   "keywords": "Sony Group SONY 6758",
+   "type": "company",
+   "group": "해외",
+   "category": "해외",
+   "intl": {
+    "sp": null,
+    "moodys": "A2",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": "긍정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2026.10",
+     "agency": "Moody's",
+     "change": "A2 유지, 전망 안정적→긍정적"
+    }
+   ],
+   "memo": "2026.10 기준. S&P 등급은 확인 못 함",
+   "source": "Teleborsa/Borsa Italiana(2026.10.08)",
+   "verified": true
+  },
+  {
+   "id": "jd",
+   "name": "징둥닷컴",
+   "keywords": "JD.com JD 9618",
+   "type": "company",
+   "group": "항셍",
+   "category": "홍콩·중국",
+   "intl": {
+    "sp": "A-",
+    "moodys": "A3",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "긍정적",
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "2025.11 기준(MNI 표기 A3/A-pos/NR). Fitch는 등급 없음",
+   "source": "MNI Markets(2025.11.19)",
+   "verified": true
+  },
+  {
+   "id": "baidu",
+   "name": "바이두",
+   "keywords": "Baidu BIDU 9888",
+   "type": "company",
+   "group": "항셍",
+   "category": "홍콩·중국",
+   "intl": {
+    "sp": null,
+    "moodys": "A3",
+    "fitch": "A-"
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": "부정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2026.08",
+     "agency": "Fitch",
+     "change": "A→A- 하향, 전망 안정적"
+    },
+    {
+     "date": "2026.09",
+     "agency": "Moody's",
+     "change": "A3 유지, 전망 안정적→부정적"
+    }
+   ],
+   "memo": "2026.09 기준",
+   "source": "TechNode(2026.09.28), Newsquawk(2026.08.13)",
+   "verified": true
+  },
+  {
+   "id": "china-2",
+   "name": "중국건설은행",
+   "keywords": "China Construction Bank CCB 0939",
+   "type": "company",
+   "group": "항셍",
+   "category": "홍콩·중국",
+   "intl": {
+    "sp": "A",
+    "moodys": "A1",
+    "fitch": "A"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.04",
+     "agency": "Fitch",
+     "change": "A 유지, 전망 부정적→안정적"
+    },
+    {
+     "date": "2026.04",
+     "agency": "Moody's",
+     "change": "A1 유지, 전망 부정적→안정적"
+    }
+   ],
+   "memo": "2026.05 기준(Moody's는 장기 외화예금등급)",
+   "source": "CCB IR 신용등급 페이지(2026.05)",
+   "verified": true
+  },
+  {
+   "id": "bank",
+   "name": "중국은행",
+   "keywords": "Bank of China BOC 3988",
+   "type": "company",
+   "group": "항셍",
+   "category": "홍콩·중국",
+   "intl": {
+    "sp": "A",
+    "moodys": "A1",
+    "fitch": "A"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": null,
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.04",
+     "agency": "Fitch",
+     "change": "A 유지, 전망 부정적→안정적"
+    }
+   ],
+   "memo": "BOC IR 2025.04 기준. Moody's 전망은 당시 부정적이었고 2026년 변경 여부는 확인 못 함",
+   "source": "Bank of China IR 신용등급 페이지(2025.04.11)",
+   "verified": true
+  },
+  {
+   "id": "boeing",
+   "name": "보잉",
+   "keywords": "Boeing BA",
+   "type": "company",
+   "group": "미국",
+   "category": "미국",
+   "intl": {
+    "sp": "BBB-",
+    "moodys": "Baa3",
+    "fitch": "BBB-"
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.04",
+     "agency": "S&P",
+     "change": "하향검토(CreditWatch) 해제"
+    },
+    {
+     "date": "2025.06",
+     "agency": "Fitch",
+     "change": "BBB- 유지, 전망 부정적→안정적"
+    },
+    {
+     "date": "2025.12",
+     "agency": "Moody's",
+     "change": "Baa3 유지, 전망 부정적→안정적"
+    }
+   ],
+   "memo": "2025년 말 기준",
+   "source": "Bondfish(2025년 말 기준), Investing.com(2025.12.12), Business Standard(2025.06.30)",
+   "verified": true
+  },
+  {
+   "id": "johnson",
+   "name": "존슨앤드존슨",
+   "keywords": "Johnson & Johnson JNJ",
+   "type": "company",
+   "group": "미국",
+   "category": "미국",
+   "intl": {
+    "sp": "AAA",
+    "moodys": "Aaa",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.01",
+     "agency": "S&P",
+     "change": "AAA 하향검토(CreditWatch 부정적) 지정"
+    },
+    {
+     "date": "2025.04",
+     "agency": "S&P",
+     "change": "하향검토 해제, AAA 유지"
+    }
+   ],
+   "memo": "2025.04 기준. S&P 전망은 하향검토 해제 보도에 근거",
+   "source": "Bloomberg(2025.04.25), InvestmentWeek(2025.01), 24/7 Wall St(2026.05)",
+   "verified": true
+  },
+  {
+   "id": "eli",
+   "name": "일라이릴리",
+   "keywords": "Eli Lilly LLY",
+   "type": "company",
+   "group": "미국",
+   "category": "미국",
+   "intl": {
+    "sp": "A+",
+    "moodys": "Aa3",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "안정적",
+    "moodys": "안정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "2025.02 기준(채권 발행 조건)",
+   "source": "SEC EDGAR FWP(2025.02.10)",
+   "verified": true
+  },
+  {
+   "id": "unitedhealth",
+   "name": "유나이티드헬스",
+   "keywords": "UnitedHealth Group UNH",
+   "type": "company",
+   "group": "미국",
+   "category": "미국",
+   "intl": {
+    "sp": "A+",
+    "moodys": "A2",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": "부정적",
+    "moodys": "부정적",
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [
+    {
+     "date": "2025.06",
+     "agency": "S&P",
+     "change": "A+ 유지, 전망 부정적"
+    },
+    {
+     "date": "2025.06",
+     "agency": "Moody's",
+     "change": "전망 안정적→부정적"
+    },
+    {
+     "date": "2025.07",
+     "agency": "Fitch",
+     "change": "전망 안정적→부정적"
+    }
+   ],
+   "memo": "2025.06 전망 변경 기준. Fitch 지주사 등급은 확인 못 함(2025.07 전망 부정적 변경)",
+   "source": "FI-Desk(2025.06), Becker's Payer(2025.07.30), InvestmentGrade.com(2026)",
+   "verified": true
+  },
+  {
+   "id": "exxon",
+   "name": "엑슨모빌",
+   "keywords": "Exxon Mobil XOM",
+   "type": "company",
+   "group": "미국",
+   "category": "미국",
+   "intl": {
+    "sp": "AA-",
+    "moodys": "Aa2",
+    "fitch": null
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "2026.09 채권 발행 조건 기준. 전망은 확인 못 함",
+   "source": "InvestmentGrade.com(2026.10 확인, 2026.09.23 발행조건 인용)",
+   "verified": true
+  },
+  {
+   "id": "shell",
+   "name": "셸",
+   "keywords": "Shell plc SHEL",
+   "type": "company",
+   "group": "해외",
+   "category": "해외",
+   "intl": {
+    "sp": null,
+    "moodys": null,
+    "fitch": "AA-"
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "2026.02 기준. S&P와 Moody's는 확인 못 함",
+   "source": "Hellenic Shipping News, Fitch 보도자료(2026.02.05)",
+   "verified": true
+  },
+  {
+   "id": "saudi-2",
+   "name": "사우디 아람코",
+   "keywords": "Saudi Aramco 2222",
+   "type": "company",
+   "group": "해외",
+   "category": "해외",
+   "intl": {
+    "sp": null,
+    "moodys": null,
+    "fitch": "A+"
+   },
+   "outlook": {
+    "sp": null,
+    "moodys": null,
+    "fitch": "안정적"
+   },
+   "domestic": null,
+   "shortTerm": null,
+   "history": [],
+   "memo": "2025.12 기준. Moody's와 S&P는 확인 못 함",
+   "source": "Hellenic Shipping News, Fitch 보도자료(2025.12.10)",
+   "verified": true
+  }
+ ]
+}
